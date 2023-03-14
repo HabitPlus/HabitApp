@@ -26,7 +26,6 @@ describe('Button', () => {
       <Route element={<Layout />}>
         <Route path="/" element={<Landing />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/nutricion" element={<Nutricion />} />
       </Route>
     </Routes></MemoryRouter>)
       const buttonHabit = screen.getByRole("button", { name: /habit\+/i });
