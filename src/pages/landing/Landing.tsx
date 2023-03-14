@@ -5,12 +5,17 @@ import logo from '../../assets/logo-caritas.png'
 
 const Landing = () => {
   return (
-<div className='flex flex-col 1 place-content: center'>
-  <img src={logo} alt="chica-corriendo" /> <br />
+<div className='flex flex-col 1'>
+  <img src={logo} alt="chica-corriendo" />
   <img src={chica} alt="" />
-<br />  
-  <Link to="/home" className='font-serif text-white font-weight: 600 bg-orange rounded-xl p-3 tracking-[1em] place-content-center'>Habit+</Link>
-  </div>
+ 
+  <Link to="/home">
+    <button className='font-serif text-white font-weight: 600 bg-orange rounded-full p-3 w-64 h-10
+    tracking-[1em]'>Habit+
+      </button>
+  </Link>
+  
+</div>
   )
 }
 
