@@ -2,7 +2,7 @@ import React from 'react'
 
 const SaludMental = () => {
   return (
-    <div>Salud-mental</div>
+    <h1>Salud Mental</h1>
   )
 }
 
