@@ -15,7 +15,7 @@ const Landing = () => {
         <br />
         <Link to="/home">
           {" "}
-          <button className="font-serif text-3xl text-white font-weight: 600 bg-orange rounded-full py-1 pl-4 tracking-[0.5em] ">
+          <button className="font-serif text-3xl text-white font-weight: 600 bg-orange hover:bg-red rounded-full py-1 pl-4 tracking-[0.5em] ">
             Habit+
           </button>
         </Link>

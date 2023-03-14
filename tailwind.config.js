@@ -15,6 +15,7 @@ module.exports = {
       'gray': '#8492a6',
       'gray-light': '#d3dce6',
       'white': '#ffffff',
+      'red': '#cc1126',
     },
     fontFamily:{
       sans: ['Manjari', 'sans-serif'],
