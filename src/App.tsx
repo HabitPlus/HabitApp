@@ -5,9 +5,9 @@ import Landing from "./pages/landing/Landing";
 import Layout from "./components/Layout";
 import Home from "./pages/home/Home";
 import Nutricion from "./pages/nutricion/Nutricion";
-import SaludMental from "./pages/salud-mental/Salud-Mental";
 import Deporte from "./pages/deporte/Deporte";
 import Sueño from "./pages/sueño/Sueño";
+import SaludMental from "./pages/salud-mental/SaludMental";
 
 function App() {
   return (
