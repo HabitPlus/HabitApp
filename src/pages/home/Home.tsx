@@ -1,14 +1,22 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import nutrition from '../../assets/nutrition.svg'
+import sleep from '../../assets/sleep.svg'
+import saludmental from '../../assets/salud-mental.svg'
+import deporte from '../../assets/deporte.svg'
 
 const Home = () => {
   return (
     <>
-      <h1>Habit+</h1>
-      <Link to='/nutricion'><button className='bg-[#00C27A] text-center align-middle text-black font-extrabold mt-6 text-2xl h-10 w-64 rounded-full'>Nutrición</button></Link>
-      <Link to='/salud-mental'><button className='bg-[#00C27A] text-center align-middle text-black font-extrabold mt-6 text-2xl h-10 w-64 rounded-full'>Salud Mental</button></Link>
-      <Link to='/deporte'><button className='bg-[#00C27A] text-center align-middle text-black font-extrabold mt-6 text-2xl h-10 w-64 rounded-full'>Deporte</button></Link>
-      <Link to='/sueño'><button className='bg-[#00C27A] text-center align-middle text-black font-extrabold mt-6 text-2xl h-10 w-64 rounded-full'>Sueño</button></Link>
+      <div className='grid grid-rows-2 justify-center mt-36'>
+        <h1 className='font-serif text-4xl text-orange font-weight: 600 tracking-[0.5em]'>Habit+</h1>
+      </div>
+      <div className='flex flex-wrap justify-center gap-5'>
+        <Link to='/nutricion'><button className='bg-[#00C27A] text-white mt-6 text-2xl rounded-2xl p-2'><img className=''src={nutrition} alt="nutrición"></img>Nutrición</button></Link>
+        <Link to='/nutricion'><button className='bg-[#00C27A] text-white mt-6 text-2xl rounded-2xl'><img className=''src={sleep} alt="nutrición"></img>Nutrición</button></Link>
+        <Link to='/nutricion'><button className='bg-[#00C27A] text-white mt-6 text-2xl rounded-2xl p-6'><img className=''src={saludmental} alt="nutrición"></img>Nutrición</button></Link>
+        <Link to='/nutricion'><button className='bg-[#00C27A] text-white mt-6 text-2xl rounded-2xl p-4'><img className=''src={deporte} alt="nutrición"></img>Nutrición</button></Link>
+      </div>
     </>
   )
 }
