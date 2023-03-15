@@ -6,7 +6,7 @@ export const BackButton = () => {
   return (
     <>
       <button
-        className="hover:cursor-pointer flex flex-col absolute mt-24 ml-6 sm:hidden"
+        className="hover:cursor-pointer flex flex-col fixed -mt-12 ml-6 sm:hidden"
         onClick={() => navigate(-1)}
       >
         

@@ -13,13 +13,16 @@ import styles from './Home.module.css'
 const Home = () => {
   return (
     <>
-     <Nav />
-      <BackButton />
-    <div className={styles.header}>
-      <Header />
-     
-      <div className="flex justify-center items-center h-screen mt-5">
-        <div className="gap-4 md:gap-8">
+
+<Header /> 
+<BackButton />
+
+      <div className={styles.header}>
+      
+      
+      <Nav />
+        <div className="flex justify-center items-center">
+        <div className="gap-4 mt-12 md:mt-40  ">
           <div className="grid grid-cols-2 grid-rows-2 md:grid-cols-4 md:grid-rows-1 gap-4 md:gap-8">
             <Link to='/nutricion'>
               <button className="p-2 w-full h-52 md:h-72 bg-green rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center justify-center gap-4">
