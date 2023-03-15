@@ -9,7 +9,7 @@ type Props = {}
 const Nutricion = (props: Props) => {
   return (
     <>
-    <div className='flex flex-row-1 items-center'>
+    <div className='flex flex-col-2 items-center'>
     <BackButton/>
     <Header/>
     </div>
