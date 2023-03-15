@@ -7,17 +7,21 @@ import deporte from '../../assets/deporte.svg'
 
 const Home = () => {
   return (
-    <div className="gap-20">
-      {/* <div className="space-y-10 md:space-y-0 md:grid md:grid-cols-2">
-      <div className="md:flex md:flex-col md:justify-center"> */}
-        <div className="flex-rows-2 gap-24">
-          <Link to='/nutricion'><button className="w-64 h-72 bg-blue rounded-2xl shadow-2xl bg-black md:bg-purple-400"><img className=''src={nutrition} alt="nutrición"></img>hi</button></Link>
-          <Link to='/nutricion'><button className="w-64 h-72 bg-purple rounded-2xl shadow-2xl bg-black md:bg-purple-400"><img className=''src={sleep} alt="nutrición"></img>Nutrición</button></Link>
-          <Link to='/nutricion'><button className="w-64 h-72 bg-orange rounded-2xl shadow-2xl bg-black md:bg-purple-400"><img className=''src={saludmental} alt="nutrición"></img>Nutrición</button></Link>
-          <Link to='/nutricion'><button className="w-64 h-72 bg-green rounded-2xl shadow-2xl bg-black md:bg-purple-400"><img className=''src={deporte} alt="nutrición"></img>Nutrición</button></Link>
+    <div className="">
+      <div className="space-y-10 md:space-y-0 md:grid md:grid-cols-4">
+      <div className="md:flex md:flex-col md:justify-center">
+        <div className="">
+          <Link to='/nutricion'>
+            <button className="flex flex-col-2 w-full h-72 bg-blue rounded-2xl shadow-2xl bg-black md:bg-purple-400">
+            <img className='justify-center'src={nutrition} alt="nutrición"></img>
+            <p>Nutrición</p>
+            </button></Link>
+          <Link to='/nutricion'><button className="w-full h-72 bg-purple rounded-2xl shadow-2xl bg-black md:bg-purple-400"><img className=''src={sleep} alt="nutrición"></img>Nutrición</button></Link>
+          <Link to='/nutricion'><button className="w-full h-72 bg-orange rounded-2xl shadow-2xl bg-black md:bg-purple-400"><img className=''src={saludmental} alt="nutrición"></img>Nutrición</button></Link>
+          <Link to='/nutricion'><button className="w-full h-72 bg-green rounded-2xl shadow-2xl bg-black md:bg-purple-400"><img className=''src={deporte} alt="nutrición"></img>Nutrición</button></Link>
         </div>
-      {/* </div>
-      </div> */}
+      </div>
+      </div>
 
     </div>
     // <>
