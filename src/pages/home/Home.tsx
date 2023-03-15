@@ -7,7 +7,7 @@ import deporte from '../../assets/deporte.svg';
 
 const Home = () => {
   return (
-    <div className="bg-yellow  ">
+    <div className="bg-yellow flex justify-center items-center h-screen ">
       <div className="flex-rows-2 gap-4 md:gap-8 grid grid-cols-2 md:grid-cols-4 ">
         <Link to='/nutricion'>
           <button className="w-64 h-72 bg-blue rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center justify-center">
