@@ -1,6 +1,5 @@
 import React from 'react'
 import { BackButton } from '../../components/Arrow'
-import Footer from '../../components/Footer'
 import Header from '../../components/Header'
 import Nav from '../../components/Nav'
 
@@ -13,8 +12,9 @@ const Nutricion = (props: Props) => {
     <BackButton/>
     <Header/>
     </div>
-     
     
+   
+
     <Nav/>
     
     
