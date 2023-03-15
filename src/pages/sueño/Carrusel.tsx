@@ -3,7 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { Link } from 'react-router-dom';
-
+import sleep from '../../assets/sleep.svg'
 
 const Carousel = () => {
   const settings = {
@@ -15,7 +15,7 @@ const Carousel = () => {
     centerMode: true,
     centerPadding: '60px',
     autoplay: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 4000,
     pauseOnHover: true,
     responsive: [
       {
@@ -36,39 +36,54 @@ const Carousel = () => {
   };
 
   return (
-    <div className=''>
-    <Slider {...settings}>
-      <div>
-        <Link to='/nutricion'>
-          <button className='bg-[#00C27A] text-center align-middle text-black font-extrabold mt-6 text-2xl h-40 w-64 rounded-full'>Dormir Bien</button>
-        </Link>
-      </div>
-      <div>
-        <Link to='/salud-mental'>
-          <button className='bg-[#00C27A] text-center align-middle text-black font-extrabold mt-6 text-2xl h-40 w-64 rounded-full'>¿Cuándo debo Consultar un Especialista?</button>
-        </Link>
-      </div>
-      <div>
-        <Link to='/deporte'>
-          <button className='bg-[#00C27A] text-center align-middle text-black font-extrabold mt-6 text-2xl h-40 w-64 rounded-full'>¿Qué es el Insomnio?</button>
-        </Link>
-      </div>
-      <div>
-        <Link to='/sueño'>
-          <button className='bg-[#00C27A] text-center align-middle text-black font-extrabold mt-6 text-2xl h-40 w-64 rounded-full'>¿Cómo Puedo Dormir Mejor?</button>
-        </Link>
-      </div>
-      <div>
-        <Link to='/sueño'>
-          <button className='bg-[#00C27A] text-center align-middle text-black font-extrabold mt-6 text-2xl h-40 w-64 rounded-full'>¿Qué Causas Producen el Insomnio?</button>
-        </Link>
-      </div>
-      <div>
-        <Link to='/sueño'>
-          <button className='bg-[#00C27A] text-center align-middle text-black font-extrabold mt-6 text-2xl h-40 w-64 rounded-full'>¿Qué Efectos tiene el Insomnio?</button>
-        </Link>
-      </div>
-    </Slider>
+    <div className='bg-blue'>
+      <Slider {...settings}>
+        <div>
+          <Link to='/nutricion'>
+            <div className="button-container">
+              
+            </div>
+          </Link>
+        </div>
+        <div>
+          <Link to='/salud-mental'>
+            <div className="button-container">
+              <button className='bg-[#00C27A] text-center align-middle text-black font-extrabold mt-6 text-2xl h-40 w-64 rounded-full'>¿Cuándo debo Consultar un Especialista?</button>
+            </div>
+          </Link>
+        </div>
+        <div>
+          <Link to='/deporte'>
+            <div className="button-container">
+              <button className='bg-[#00C27A] text-center align-middle text-black font-extrabold mt-6 text-2xl h-40 w-64 rounded-full'>¿Qué es el Insomnio?</button>
+            </div>
+          </Link>
+        </div>
+        <div>
+          <Link to='/sueño'>
+            <div className="button-container">
+              <button className='bg-[#00C27A] text-center align-middle text-black font-extrabold mt-6 text-2xl h-40 w-64 rounded-full'>¿Cómo Puedo Dormir Mejor?</button>
+            </div>
+          </Link>
+        </div>
+        <div>
+          <Link to='/sueño'>
+            <div className="button-container">
+              <button className='bg-white text-center align-middle text-black font-extrabold mt-6 text-2xl h-40 w-64 rounded-full'>
+                <img src={sleep} alt="sleep" />
+                ¿Qué Causas Producen el Insomnio?
+              </button>
+            </div>
+          </Link>
+        </div>
+        <div>
+          <Link to='/sueño'>
+            <div className="button-container">
+              <button className='bg-[#00C27A] text-center align-middle text-black font-extrabold mt-6 text-2xl h-40 w-64 rounded-full'>¿Cómo Puedo Dormir Mejor?</button>
+            </div>
+          </Link>
+        </div>
+      </Slider>
     </div>
   );
 };
