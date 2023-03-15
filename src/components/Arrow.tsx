@@ -6,11 +6,11 @@ export const BackButton = () => {
   return (
     <>
       <button
-        className="bg-blue hover:cursor-pointer flex flex-col absolute mt-32"
+        className="hover:cursor-pointer flex flex-col absolute mt-24 ml-6 sm:hidden"
         onClick={() => navigate(-1)}
       >
         
-        <img className="w-24" src={iconBackArrow} alt=""/>
+        <img className="" src={iconBackArrow} alt=""/>
     
       </button>
     </>

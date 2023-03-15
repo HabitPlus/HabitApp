@@ -14,9 +14,9 @@ const Nutricion = (props: Props) => {
     <Header/>
     </div>
      
+    
     <Nav/>
     
-    <h1>Nutrición</h1>
     
     </>
   )
