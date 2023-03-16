@@ -8,6 +8,7 @@ import Nutricion from "./pages/nutricion/Nutricion";
 import Deporte from "./pages/deporte/Deporte";
 import Sueño from "./pages/sueño/Sueño";
 import SaludMental from "./pages/salud-mental/SaludMental";
+import Contact from "./pages/contacto/contact";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/sueño" element={<Sueño />} />
             <Route path="/salud-mental" element={<SaludMental />} />
             <Route path="/deporte" element={<Deporte />} />
+            <Route path="/contact" element={<Contact backgroundColor='#fff456' />} />
           </Route>
         </Routes>
     </>
