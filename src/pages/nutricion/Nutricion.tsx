@@ -12,12 +12,7 @@ const Nutricion = (props: Props) => {
     <BackButton/>
     <Header/>
     </div>
-    
-   
-
     <Nav/>
-    
-    
     </>
   )
 }
