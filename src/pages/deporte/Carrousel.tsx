@@ -49,32 +49,35 @@ const Carrousel = () => {
   <Slider {...settings}>
     <div>
       <Link to='/sports1'>
-        <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl flex flex-col items-center justify-center gap-2">
+        <div className="p-2 w-fit h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center 
+        justify-center gap-2">
           <img className='w-24 md:w-32 mt-2 md:mt-5' src={importancia} alt="importancia" />
           <p className="text-black text-xl text-center md:text-3xl md:mb-4">LA IMPORTANCIA DE LA ACTIVIDAD FÍSICA</p>
         </div>
       </Link>
     </div>
     <div>
-      <Link to='/sports4'>
-        <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center justify-center gap-2">
-          <img className='w-24 md:w-32 mt-2 md:mt-5' src={tipos} alt="sueño" />
+      <Link to='/sports2'>
+        <div className="p-2 w-fit h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center 
+        justify-center gap-2">
+          <img className='w-24 md:w-32 mt-2 md:mt-5' src={tipos} alt="tipos" />
           <p className="text-black text-xl text-center md:text-3xl md:mb-4">TIPOS DE ACTIVIDADES FÍSICAS</p>
         </div>
       </Link>
     </div>
     <div>
       <Link to='/sports3'>
-        <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center justify-center gap-2">
-          <img className='w-24 md:w-32 mt-2 md:mt-5' src={consejos} alt="sueño" />
+        <div className="p-2 w-fit h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center 
+        justify-center gap-2">
+          <img className='w-24 md:w-32 mt-2 md:mt-5' src={consejos} alt="consejos" />
           <p className="text-black text-xl text-center md:text-3xl md:mb-4">CONSEJOS PARA REALIZAR ACTIVIDAD FÍSICA</p>
         </div>
       </Link>
     </div>
     <div>
       <Link to='/sports4'>
-        <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center justify-center gap-2">
-          <img className='w-24 md:w-32 mt-2 md:mt-5' src={entorno} alt="sueño" />
+        <div className="p-2 w-fit h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center justify-center gap-2">
+          <img className='w-24 md:w-32 mt-2 md:mt-5' src={entorno} alt="entorno" />
           <p className="text-black text-xl text-center md:text-3xl md:mb-4">ACTIVIDAD FÍSICA EN EL ENTORNO</p>
         </div>
       </Link>
