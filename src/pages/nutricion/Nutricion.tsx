@@ -1,34 +1,32 @@
-import { string } from 'prop-types'
 import React from 'react'
-import { BackButton } from '../../components/Arrow'
+import Carousel from './CarouselNutricion'
 import Header from '../../components/Header'
+import { BackButton } from '../../components/Arrow'
 import Nav from '../../components/Nav'
-import CarouselNutricion from './CarouselNutricion'
-import styles from './Nutricion.module.css'
 
-interface NutricionProps {
+
+interface DeporteProps {
   backgroundColor: string;
 }
-
-const Nutricion: React.FC<NutricionProps> = ({ backgroundColor }) => {
+const Nutricion: React.FC<DeporteProps> = ({ backgroundColor }) => {
   return (
     <>
-      <Header />
-      <BackButton />
-      <>
-        <h1 className='text-center font-serif text-4xl mt-20'>Nutrición</h1>
-        <CarouselNutricion />
-        <style type="text/css">
-          {`
-            body {
-              background-color: ${backgroundColor};
-            }
-          `}
-        </style>
-        <Nav />
-      </>
+    <Header />
+        <BackButton />
+        <Nav  />
+        <>
+        <h1 className='text-black text-center text-3xl font-semibold mt-14'>Nutrición</h1>
+      <Carousel />
+      <style type="text/css">
+        {`
+          body {
+            background-color: ${backgroundColor};
+          }
+        `}
+      </style>
     </>
-  )
-}
+    </>
+  );
+};
 
-export default Nutricion
+export default Nutricion;
