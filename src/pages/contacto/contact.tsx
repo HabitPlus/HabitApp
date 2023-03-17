@@ -15,8 +15,10 @@ const contact:React.FC<contactProps> = (backgroundColor) => {
     <Nav/>
     <div className='font-sans mt-14 flex flex-col items-center'>
     <h1 className='text-3xl my-6'>Contacta con Caritas</h1>
-    <h3 className='my-6 text-lg'>habitsplus@caritassantfeliu.cat</h3>
-    <h3 className='text-lg'>+34 936 255 770</h3>
+    <a href="mailto:habitsplus@caritassantfeliu.cat?body=My custom mail body"><h3 className='my-6 text-lg'>habitsplus@caritassantfeliu.cat</h3></a>
+   
+    <a href="tel:PHONE_NUM"><h3 className='text-lg'>+34 936 255 770</h3></a>
+    
       <style type="text/css">
         {`
           body {
