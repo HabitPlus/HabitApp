@@ -11,35 +11,35 @@ const Sports2 = () => {
     <BackButton/>
     <Nav/>
     <div className='flex flex-col items-center mt-10'>
-    <h1 className='text-black text-center h-fit w-fit p-2 bg-yellow rounded-lg md:text-6xl md:p-6'>TIPOS DE ACTIVIDAD FÍSICA</h1>  
+    <h1 className='text-black text-center text-xl font-serif font-bold h-fit w-fit p-2 bg-yellow rounded-lg md:text-6xl md:p-6'>TIPOS DE ACTIVIDAD FÍSICA</h1>  
     </div>
 
-    <div className='flex flex-col items-center p-5 mt-15'>  
-      <p className='text-justify text-xl mt-4 mb-8 md:text-6xl'>
-        Existen diferentes formas de ejercitarnos físicamente, como las <br />
+    <div className='justify-center p-6'>  
+      <p className='text-justify text-xl font-medium md:text-6xl'>
+        Existen diferentes formas de ejercitarnos físicamente, como las
         que se pueden observar en el cuadro a continuación.
       </p>
     
-    <h2 className='text-justify text-xl md:text-6xl'>ACTIVIDADES AERÓBICAS</h2> 
+    <h2 className='text-justify text-xl font-serif md:text-6xl'>ACTIVIDADES AERÓBICAS</h2> 
     <ul>
-      <li className='text-justify text-xl md:text-6xl'>
-        El cuerpo se nutre del consumo de oxígeno para llevarlas a cabo, <br />
+      <li className='text-justify text-xl font-medium md:text-6xl'>
+        El cuerpo se nutre del consumo de oxígeno para llevarlas a cabo,
         quemando hidratos y grasas.</li>
-      <li className='text-justify text-xl md:text-6xl'>Son de baja, media o alta intensidad.</li>
-      <li className='text-justify text-xl md:text-6xl'>
+      <li className='text-justify text-xl font-medium md:text-6xl'>Son de baja, media o alta intensidad.</li>
+      <li className='text-justify text-xl font-medium md:text-6xl'>
         Ejemplos: caminar, correr, bicicleta, bailar, nadar y patinar.</li>
     </ul> 
-    <h2 className='text-justify text-xl md:text-6xl'>ACTIVIDADES ANAERÓBICAS</h2>
+    <h2 className='text-justify text-xl font-serif md:text-6xl'>ACTIVIDADES ANAERÓBICAS</h2>
     <ul>
-      <li className='text-justify text-xl md:text-6xl'>
+      <li className='text-justify text-xl font-medium md:text-6xl'>
         Son ejercicios de alta intensidad y poca duración.</li>
-      <li className='text-justify text-xl md:text-6xl'>
+      <li className='text-justify text-xl font-medium md:text-6xl'>
         Se desarrollan músculos sin consumo de oxígeno.</li>
-      <li className='text-justify text-xl md:text-6xl'>
-        Ejemplos: abdominales, sentadillas, levantamiento de pesas, <br />
+      <li className='text-justify text-xl font-medium md:text-6xl'>
+        Ejemplos: abdominales, sentadillas, levantamiento de pesas,
       carreras cortas a gran velocidad, gimnasia artística o flexiones.</li>
     </ul>
-    <h2>La Fundación Española del Corazón y la Sociedad Española de <br />
+    <h2 className='text-justify text-xl font-medium md:text-6xl'>La Fundación Española del Corazón y la Sociedad Española de
       Cardiología (2019),recomiendan lo siguiente.</h2>
     </div>
 
