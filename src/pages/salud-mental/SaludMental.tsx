@@ -1,6 +1,8 @@
 import React from 'react'
 
-const SaludMental = () => {
+type Props = {}
+
+const SaludMental = (props: Props) => {
   return (
     <h1>Salud Mental</h1>
   )

@@ -9,6 +9,10 @@ import Deporte from "./pages/deporte/Deporte";
 import Sueño from "./pages/sueño/Sueño";
 import SaludMental from "./pages/salud-mental/SaludMental";
 import Contact from "./pages/contacto/contact";
+import Sports1 from "./pages/deporte/Subsections/sports1/Sports1";
+import Sports2 from "./pages/deporte/Subsections/sports2/Sports2";
+import Sports3 from "./pages/deporte/Subsections/sports3/Sports3";
+import Sports4 from "./pages/deporte/Subsections/sports4/Sports4";
 
 function App() {
   return (
@@ -21,7 +25,6 @@ function App() {
             <Route path="/sueño" element={<Sueño />} />
             <Route path="/salud-mental" element={<SaludMental />} />
             <Route path="/deporte" element={<Deporte />} />
-            <Route path="/contact" element={<Contact backgroundColor='#fff456' />} />
           </Route>
         </Routes>
     </>
