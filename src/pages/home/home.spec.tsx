@@ -43,7 +43,7 @@ describe('Button', () => {
         <Route path="/nutricion" element={<Nutricion />} />
         <Route path="/sueño" element={<Sueño />} />
         <Route path="/salud-mental" element={<SaludMental />} />
-        <Route path="/deporte" element={<Deporte />} />
+        <Route path="/deporte" element={<Deporte backgroundColor='#FFC727' />} />
       </Route>
     </Routes></MemoryRouter>)
     })
