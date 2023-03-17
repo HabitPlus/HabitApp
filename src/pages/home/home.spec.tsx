@@ -40,7 +40,7 @@ describe('Button', () => {
       render(<MemoryRouter initialEntries={['/home']}><Routes>
       <Route element={<Layout />}>
         <Route path="/home" element={<Home />} />
-        <Route path="/nutricion" element={<Nutricion />} />
+        <Route path="/nutricion" element={<Nutricion backgroundColor="#E3F9EA" />} />
         <Route path="/sueño" element={<Sueño />} />
         <Route path="/salud-mental" element={<SaludMental />} />
         <Route path="/deporte" element={<Deporte />} />
