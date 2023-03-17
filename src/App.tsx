@@ -23,7 +23,7 @@ function App() {
             <Route path="/nutricion" element={<Nutricion />} />
             <Route path="/sueño" element={<Sueño />} />
             <Route path="/salud-mental" element={<SaludMental />} />
-            <Route path="/deporte" element={<Deporte backgroundColor="#FFC727" />} />
+            <Route path="/deporte" element={<Deporte backgroundColor="#F8EFD4" />} />
             <Route path="/sports1" element={<Sports1 />} />
             <Route path="/sports2" element={<Sports2 />} />
             <Route path="/sports3" element={<Sports3 />} />
