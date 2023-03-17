@@ -10,6 +10,7 @@ import Landing from '../landing/Landing';
 import SaludMental from '../salud-mental/SaludMental';
 import Deporte from '../deporte/Deporte';
 import Sueño from '../sueño/Sueño';
+import Contact from '../contacto/contact';
 
 describe('Button', () => {
   it('should render a button', () => {
@@ -43,7 +44,8 @@ describe('Button', () => {
         <Route path="/nutricion" element={<Nutricion />} />
         <Route path="/sueño" element={<Sueño backgroundColor="#5A88FC"/>} />
         <Route path="/salud-mental" element={<SaludMental />} />
-        <Route path="/deporte" element={<Deporte />} />
+        <Route path="/deporte" element={<Deporte backgroundColor='#FFC727' />} />
+        <Route path="/contact" element={<Contact backgroundColor={'#FFFCF3'}/>} />
       </Route>
     </Routes></MemoryRouter>)
     })

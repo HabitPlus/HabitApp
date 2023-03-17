@@ -1,11 +1,32 @@
 import React from 'react'
+import Carrousel from './Carrousel'
+import Header from '../../components/Header'
+import { BackButton } from '../../components/Arrow'
+import Nav from '../../components/Nav'
 
-type Props = {}
 
-const Deporte = (props: Props) => {
-  return (
-    <h1>Deporte</h1>
-  )
+interface DeporteProps {
+  backgroundColor: string;
 }
+const Deporte: React.FC<DeporteProps> = ({ backgroundColor }) => {
+  return (
+    <>
+    <Header />
+        <BackButton />
+        <Nav  />
+        <>
+        <h1 className='text-black text-center text-3xl font-semibold mt-14'>Deporte</h1>
+      <Carrousel />
+      <style type="text/css">
+        {`
+          body {
+            background-color: ${backgroundColor};
+          }
+        `}
+      </style>
+    </>
+    </>
+  );
+};
 
-export default Deporte
+export default Deporte;
