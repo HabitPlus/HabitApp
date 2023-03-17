@@ -7,15 +7,15 @@ import Nav from '../../../../components/Nav'
 const Sports2 = () => {
   return (
     <>
-    <BackButton/>
     <Header/>
+    <BackButton/>
     <Nav/>
-    <div className='flex justify-center mt-10'>
+    <div className='flex flex-col items-center mt-10'>
     <h1 className='text-black text-center h-fit w-fit p-2 bg-yellow rounded-lg md:text-6xl md:p-6'>TIPOS DE ACTIVIDAD FÍSICA</h1>  
     </div>
-        
-    <div className='justify-center p-5 mt-15'>  
-      <p className='text-justify text-xl md:text-6xl'>
+
+    <div className='flex flex-col items-center p-5 mt-15'>  
+      <p className='text-justify text-xl mt-4 mb-8 md:text-6xl'>
         Existen diferentes formas de ejercitarnos físicamente, como las <br />
         que se pueden observar en el cuadro a continuación.
       </p>
