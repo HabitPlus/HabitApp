@@ -8,8 +8,8 @@ import Carousel from '../sueño/Carrusel';
 const Sueño = () => {
   return (
     <>
-      <h1>Habit+</h1>
       <Carousel />
+      <h1>Habit+</h1>
     </>
   );
 };
