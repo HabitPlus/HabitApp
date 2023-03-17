@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const Nav : React.FC = () => {
   return (
     <div>
-        <footer className="bg-red text-white flex flex-row-1 items-center fixed bottom-0 justify-center h-20 gap-32
+        <footer className="bg-orange text-white flex flex-row-1 items-center fixed bottom-0 justify-center h-20 gap-32
     backdrop-blur-sm w-full box-border md:hidden">
         <div>
         <Link to={'/home'}><img className="cursor-pointer" src={home} alt="" /></Link>
