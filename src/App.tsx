@@ -19,9 +19,6 @@ import Efectos from "./pages/sueño/subsecciones/Efectos";
 import Estrategias from "./pages/sueño/subsecciones/Estrategias";
 import Habitos from "./pages/sueño/subsecciones/Habitos";
 import Insomnio from "./pages/sueño/subsecciones/Insomnio";
-import { BackButton } from "./components/Arrow";
-import Header from "./components/Header";
-import Nav from "./components/Nav";
 
 function App() {
   return (
