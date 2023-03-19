@@ -1,5 +1,5 @@
 import React from 'react'
-import Carrousel from './CarouselNutricion'
+import Carrousel from './CarouselNutrition'
 import Header from '../../components/Header'
 import { BackButton } from '../../components/Arrow'
 import Nav from '../../components/Nav'
@@ -8,7 +8,7 @@ import Nav from '../../components/Nav'
 interface DeporteProps {
   backgroundColor: string;
 }
-const Nutricion: React.FC<DeporteProps> = ({ backgroundColor }) => {
+const Nutrition: React.FC<DeporteProps> = ({ backgroundColor }) => {
   return (
     <>
       <Header />
@@ -31,4 +31,4 @@ const Nutricion: React.FC<DeporteProps> = ({ backgroundColor }) => {
   );
 };
 
-export default Nutricion;
+export default Nutrition;

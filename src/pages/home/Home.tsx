@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import nutricion from '../../assets/nutricion/nutricion.svg';
+import nutricion from '../../assets/nutrition/nutricion.svg';
 import sleep from '../../assets/sleep.svg';
 import saludmental from '../../assets/salud-mental.svg';
 import deporte from '../../assets/deporte.svg';

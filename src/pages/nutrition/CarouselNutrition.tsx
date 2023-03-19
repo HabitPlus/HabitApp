@@ -3,18 +3,18 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { Link } from 'react-router-dom';
-import cocina from '../../assets/nutricion/cocina-saludable.svg';
-import consejos from '../../assets/nutricion/consejos-alimentos.svg';
-import compra from '../../assets/nutricion/compra-economica.svg';
-import recetas from '../../assets/nutricion/recetas-saludables.svg';
+import cocina from '../../assets/nutrition/cocina-saludable.svg';
+import consejos from '../../assets/nutrition/consejos-alimentos.svg';
+import compra from '../../assets/nutrition/compra-economica.svg';
+import recetas from '../../assets/nutrition/recetas-saludables.svg';
 
 
-const CarouselNutricion = () => {
+const CarouselNutrition = () => {
   const settings = {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 1,
     slidesToScroll: 1,
     centerMode: true,
     centerPadding: '60px',
@@ -86,4 +86,4 @@ const CarouselNutricion = () => {
         
   
 
-export default CarouselNutricion;
+export default CarouselNutrition;

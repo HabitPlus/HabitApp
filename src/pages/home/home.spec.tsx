@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen, waitFor } from '@testing-library/react';
 import Home from './Home';
 import { BrowserRouter, MemoryRouter, Route, Routes, useNavigate } from 'react-router-dom';
-import Nutricion from '../nutricion/Nutricion';
+import Nutricion from '../nutrition/Nutrition';
 import Layout from '../../components/Layout';
 import App from '../../App';
 import userEvent from '@testing-library/user-event';
