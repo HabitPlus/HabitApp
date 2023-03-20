@@ -43,7 +43,7 @@ describe('Button', () => {
         <Route path="/home" element={<Home />} />
         <Route path="/nutricion" element={<Nutricion backgroundColor={"#E3F9EA"} />} />
         <Route path="/sueño" element={<Sueño />} />
-        <Route path="/salud-mental" element={<SaludMental />} />
+        <Route path="/salud-mental" element={<SaludMental backgroundColor='DFBBFF' />} />
         <Route path="/deporte" element={<Deporte backgroundColor='#FFC727' />} />
         <Route path="/contact" element={<Contact backgroundColor={'#FFFCF3'}/>} />
       </Route>

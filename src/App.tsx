@@ -37,7 +37,7 @@ function App() {
             <Route path="/la-compra-más-económica" element={<CompraEconomica />} />
             <Route path="/recetas-saludables" element={<RecetasSaludables />} />
             <Route path="/sueño" element={<Sueño />} />
-            <Route path="/salud-mental" element={<SaludMental />} />
+            <Route path="/salud-mental" element={<SaludMental backgroundColor='DFBBFF'/>} />
             <Route path="/deporte" element={<Deporte backgroundColor="#FFEBB0" />} />
             <Route path="/contact" element={<Contact backgroundColor="#FFFCF3" />} />
             <Route path="/sports1" element={<Sports1 />} />
