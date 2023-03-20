@@ -2,7 +2,7 @@ import React from 'react'
 import { BackButton } from '../../../components/Arrow'
 import Header from '../../../components/Header'
 import Nav from '../../../components/Nav'
-import dormirbien from '../../sueño/dormirbien.jpg'
+import dormirbien from '../../../assets/sleep/dormirbien.jpg'
 
 const Dormir = () => {
   return (
