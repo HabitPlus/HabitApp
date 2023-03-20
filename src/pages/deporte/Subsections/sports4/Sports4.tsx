@@ -17,13 +17,12 @@ const Sports4 = () => {
       Apuntarse a un gimnasio no es la única opción para 
       hacer ejercicio. Hay muchas propuestas que se pueden
       hacer en casa o en nuestro barrio. Puedes consultar el 
-      siguiente documento: http://www.estilosdevidasaludable.mscbs.gob.es/actividadFisica/
-      Decargarte aplicaciones gratuitas: Mi Fit, Strava, 
-      Pedometer, Period Traker, Health Sync, Step Tracker 
-      o Gym Fitness & Workout y para IOS, MGerhonte, Strava,
-      Fitness Coach y Home Workout. O, ver videos o seguir
-      canales de youtube: Gym Virtual, Vitónica,FitnessBlender 
-      y Xuan Lan Yoga.
+      siguiente documento:<a className='bg-blue' href="http://www.estilosdevidasaludable.mscbs.gob.es/actividadFisica/">Click Aquí</a>. Decargarte 
+      aplicaciones gratuitas: Mi Fit, Strava, Pedometer, 
+      Period Traker, Health Sync, Step Tracker o Gym Fitness 
+      & Workout y para IOS, MGerhonte, Strava,Fitness Coach 
+      y Home Workout. O, ver videos o seguir canales de youtube:
+       Gym Virtual, Vitónica,FitnessBlender y Xuan Lan Yoga.
       </p>
     </div>
 
