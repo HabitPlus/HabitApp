@@ -10,7 +10,7 @@ const CompraEconomica = () => {
     <>
       <Header />
       <BackButton />
-      <Nav />
+      <Nav bgColor={'#53B965'}/>
       <>
         <div className="text-6xl">
           <h1 className='text-green-font font-serif text-center md: text-3xl font-semibold mt-14 tracking-widest'>La compra más económica</h1>

@@ -8,9 +8,9 @@ const Estrategias = () => {
     <>
     <Header />
     <BackButton />
-    <Nav />
+    <Nav bgColor={'#5A88FC'} />
     <div className='flex flex-col items-center justify-center text-center mt-10 px-8 md:px-0'>
-      <h1 className='text-black font-bold text-xl md:text-4xl p-4 mb-6 py-4 md:p-6 bg-blue rounded-lg '>Estrategias para Favorecer el Sueño</h1>
+      <h1 className='text-[#5A88FC] font-serif text-xl md:text-4xl p-4 mb-6 py-4 md:p-6  rounded-lg '>Estrategias para Favorecer el Sueño</h1>
       <p className='text-black text-justify text-lg md:text-xl leading-8'>
       Existen una serie de técnicas y ejercicios que favorecen el dormir. <br /><br />
       Te señalamos algunos útiles para poder llegar a dormir bien. <br />

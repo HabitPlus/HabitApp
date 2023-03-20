@@ -32,9 +32,7 @@ import RecetasSaludables from "./pages/nutrition/Subsections/recetas-saludables/
 
 function App() {
   return (
-    <>
-      <div className="container">
-        
+    <> 
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<Landing />} />
@@ -55,7 +53,7 @@ function App() {
             <Route path="/consejos-para-aprovechar-los-alimentos" element={<ConsejosAlimentos />} />
             <Route path="/la-compra-más-económica" element={<CompraEconomica />} />
             <Route path="/recetas-saludables" element={<RecetasSaludables />} />
-            <Route path="/salud-mental" element={<SaludMental backgroundColor='DFBBFF'/>} />
+            <Route path="/salud-mental" element={<SaludMental backgroundColor='#DFBBFF'/>} />
             <Route path="/deporte" element={<Deporte backgroundColor="#FFEBB0" />} />
             <Route path="/contact" element={<Contact backgroundColor="#FFFCF3" />} />
             <Route path="/sports1" element={<Sports1 />} />
@@ -68,7 +66,6 @@ function App() {
             <Route path="/sm4" element={<Sm4 />} />
           </Route>
         </Routes>
-      </div>
     </>
   );
 }

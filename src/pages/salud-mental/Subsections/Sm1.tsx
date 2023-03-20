@@ -9,10 +9,10 @@ const Sm1 = () => {
     <>
       <Header />
       <BackButton />
-      <Nav />
+      <Nav bgColor={'#9F3BF8'}/>
 
       <div className="flex flex-col items-center mt-10">
-        <h1 className="text-2xl text-black text-center h-fit w-fit p-2 rounded-lg md:text-3xl md:p-4 bg-purple text-white">
+        <h1 className="text-2xl text-center h-fit w-fit p-2 rounded-lg md:text-3xl md:p-4 font-serif text-[#9F3BF8]">
           ¿Qué es la salud mental?
         </h1>
       </div>

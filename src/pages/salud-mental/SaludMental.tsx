@@ -13,8 +13,8 @@ const SaludMental: React.FC<SaludProps> = ({ backgroundColor }) => {
     <>
     <Header/>
     <BackButton/>
-    <Nav/>
-    <h1 className='text-center mt-14 text-3xl'>Salud Mental</h1>
+    <Nav bgColor={'#9F3BF8'} />
+    <h1 className='text-center mt-14 text-3xl font-serif text-[#9F3BF8]'>Salud Mental</h1>
     <CarrouselMental/>
     <style type="text/css">
         {`

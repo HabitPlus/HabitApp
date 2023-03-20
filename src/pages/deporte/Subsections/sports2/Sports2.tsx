@@ -9,9 +9,9 @@ const Sports2 = () => {
     <>
     <Header/>
     <BackButton/>
-    <Nav/>
+    <Nav bgColor={'#FFC727'}/>
     <div className='flex flex-col items-center justify-center text-center mt-10 px-8 md:px-0'>
-    <h1 className='text-black font-bold text-xl md:text-4xl p-4 mb-6 py-4 md:p-6 bg-yellow rounded-lg '>TIPOS DE ACTIVIDAD FÍSICA</h1>  
+    <h1 className='text-black font-serif text-3xl md:text-4xl p-4 mb-6 py-4 md:p-6 text-[#FFC727] rounded-lg '>TIPOS DE ACTIVIDAD FÍSICA</h1>  
     
 
       

@@ -23,7 +23,7 @@ const CocinaSaludable = () => {
           </p>
         </article>
         <article className='grid grid-rows-1 justify-center p-8 '>
-          <img className='' src={piramide} />
+          <img src={piramide} />
         </article>
         <article className='grid grid-rows-1 ml-6 mr-6 md:text-2xl'>
           <p> Se debe comer más alimentos de origen vegetal frescos -a poder ser-, como:  frutas, verduras, semillas, frutos secos, cereales y legumbres. Buscar alimentos integrales y usar técnicas de cocina como el vapor, el horno, el salteado, la parrilla o el asado.
@@ -32,7 +32,7 @@ const CocinaSaludable = () => {
         </article>
       </>
       <br></br>
-      <Nav />
+      <Nav bgColor={'#53B965'}/>
     </>
   )
 }
