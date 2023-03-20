@@ -17,7 +17,7 @@ const Sm1 = () => {
         </h1>
       </div>
 
-      <div className="justify-center p-8 text-justify text-xl lg:mx-72 indent-6 mb-20">
+      <div className="justify-center p-8 text-justify text-base lg:mx-72 indent-6 mb-20">
         <p >
           Tener buena salud mental según la OMS sería tener conciencia de
           nuestras capacidades como para afrontar la vida como vaya viniendo,

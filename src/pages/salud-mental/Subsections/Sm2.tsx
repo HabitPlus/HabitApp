@@ -18,7 +18,7 @@ const Sm2 = () => {
           </h1>
         </div>
 
-        <div className="justify-center p-8 text-justify text-s lg:mx-72 indent-6 mb-20">
+        <div className="justify-center p-8 text-justify text-base lg:mx-72 indent-6 mb-20">
           <p>
             Hay una serie de señales que nos indican que debemos hacer algo para
             ponernos mejor. Éstas señales son diferentes de una persona a otra y

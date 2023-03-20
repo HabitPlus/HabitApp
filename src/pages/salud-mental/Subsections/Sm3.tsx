@@ -17,7 +17,7 @@ const Sm3 = () => {
           </h1>
         </div>
 
-        <div className="justify-center p-8 text-justify text-s lg:mx-72 indent-6 mb-20">
+        <div className="justify-center p-8 text-justify text-base lg:mx-72 indent-6 mb-20">
           <p>
           El Foresight Programme (2008) señala una serie de medidas que podemos empezar a implementar ya en nuestras vidas:
 
