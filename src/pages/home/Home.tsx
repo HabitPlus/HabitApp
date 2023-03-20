@@ -15,7 +15,7 @@ const Home = () => {
       <Header />
       <BackButton />
       <Nav />
-      <div className={styles.header}>
+      <div >
         <div className="flex justify-center items-center">
           <div className="gap-4 mt-12 md:mt-40  ">
             <div className="grid grid-cols-2 grid-rows-2 md:grid-cols-4 md:grid-rows-1 gap-4 md:gap-8">
