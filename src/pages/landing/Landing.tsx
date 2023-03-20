@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import chica from '../../assets/girl-home1.svg'
-import logo from '../../assets/logo-caritas.png'
 import Header from '../../components/Header'
 
 
