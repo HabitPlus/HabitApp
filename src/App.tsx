@@ -4,7 +4,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Landing from "./pages/landing/Landing";
 import Layout from "./components/Layout";
 import Home from "./pages/home/Home";
-import Nutricion from "./pages/nutricion/Nutricion";
 import Deporte from "./pages/deporte/Deporte";
 import Sueño from "./pages/sueño/Sueño";
 import SaludMental from "./pages/salud-mental/SaludMental";
@@ -17,6 +16,13 @@ import Sm1 from "./pages/salud-mental/Subsections/Sm1";
 import Sm2 from "./pages/salud-mental/Subsections/Sm2";
 import Sm3 from "./pages/salud-mental/Subsections/Sm3";
 import Sm4 from "./pages/salud-mental/Subsections/Sm4";
+import CocinaSaludable from "./pages/nutrition/Subsections/cocina-saludable/CocinaSaludable";
+import Nutrition from "./pages/nutrition/Nutrition";
+import ConsejosAlimentos from "./pages/nutrition/Subsections/consejos-alimentos/ConsejosAlimentos";
+import CompraEconomica from "./pages/nutrition/Subsections/compra-economica/CompraEconomica";
+import RecetasSaludables from "./pages/nutrition/Subsections/recetas-saludables/RecetasSaludables";
+
+
 
 function App() {
   return (
@@ -25,7 +31,11 @@ function App() {
           <Route element={<Layout />}>
             <Route path="/" element={<Landing />} />
             <Route path="/home" element={<Home />} />
-            <Route path="/nutricion" element={<Nutricion />} />
+            <Route path="/nutricion" element={<Nutrition backgroundColor={"#E3F9EA"} />} />
+            <Route path="/cocina-saludable" element={<CocinaSaludable />} />
+            <Route path="/consejos-para-aprovechar-los-alimentos" element={<ConsejosAlimentos />} />
+            <Route path="/la-compra-más-económica" element={<CompraEconomica />} />
+            <Route path="/recetas-saludables" element={<RecetasSaludables />} />
             <Route path="/sueño" element={<Sueño />} />
             <Route path="/salud-mental" element={<SaludMental />} />
             <Route path="/deporte" element={<Deporte backgroundColor="#FFEBB0" />} />

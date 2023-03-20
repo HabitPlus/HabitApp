@@ -10,6 +10,8 @@ module.exports = {
       'pink': '#ff49db',
       'orange': '#FB844C',
       'green': '#CBFFDB',
+      'green-font': '#53B965',
+      'green-light': '#F7FFF9',
       'yellow': '#F8EFD4',
       'yellow-light': '#FFFCF3',
       'gray-dark': '#273444',
@@ -26,3 +28,6 @@ module.exports = {
   },
   plugins: [],
 }
+
+
+    
