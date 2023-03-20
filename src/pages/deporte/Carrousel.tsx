@@ -7,10 +7,10 @@ import sleep from '../../assets/sleep.svg'
 import Header from '../../components/Header';
 import { BackButton } from '../../components/Arrow';
 import Nav from '../../components/Nav';
-import importancia from '../../assets/import-actfca.svg';
-import tipos from '../../assets/tipos-actfca.svg';
-import consejos from '../../assets/consejos-actfca.svg';
-import entorno from '../../assets/entorno-actfca.svg';
+import importancia from '../../assets/sports/import-actfca.svg';
+import tipos from '../../assets/sports/tipos-actfca.svg';
+import consejos from '../../assets/sports/consejos-actfca.svg';
+import entorno from '../../assets/sports/entorno-actfca.svg';
 
 
 const Carrousel = () => {
@@ -49,36 +49,33 @@ const Carrousel = () => {
   <Slider {...settings}>
     <div>
       <Link to='/sports1'>
-        <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center 
-        justify-center gap-2">
-          <img className='w-52 md:w-32 mt-2 md:mt-5' src={importancia} alt="importancia" />
-          <p className="text-black text-xl text-center md:text-3xl md:mb-4">LA IMPORTANCIA DE LA <br /> ACTIVIDAD FÍSICA</p>
+        <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center justify-center gap-2">
+          <img className='w-24 md:w-32 mt-2 md:mt-5' src={importancia} alt="Importancia de la actividad física" />
+          <p className="text-black text-xl md:text-3xl md:mb-4">Importancia de la actividad física</p>
         </div>
       </Link>
     </div>
     <div>
       <Link to='/sports2'>
-        <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center 
-        justify-center gap-2">
-          <img className='w-52 md:w-32 mt-2 md:mt-5' src={tipos} alt="tipos" />
-          <p className="text-black text-xl text-center md:text-3xl md:mb-4">TIPOS DE ACTIVIDADES <br /> FÍSICAS</p>
+        <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center justify-center gap-2">
+          <img className='w-24 md:w-32 mt-2 md:mt-5' src={tipos} alt="Tipos de actividad física" />
+          <p className="text-black text-xl md:text-3xl md:mb-4">Tipos de actividad física</p>
         </div>
       </Link>
     </div>
     <div>
       <Link to='/sports3'>
-        <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center 
-        justify-center gap-2">
-          <img className='w-52 md:w-32 mt-2 md:mt-5' src={consejos} alt="consejos" />
-          <p className="text-black text-xl text-center md:text-3xl md:mb-4">CONSEJOS PARA REALIZAR <br /> ACTIVIDAD FÍSICA</p>
+        <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center justify-center gap-2">
+          <img className='w-24 md:w-32 mt-2 md:mt-5' src={consejos} alt="consejos para realizar actividad física" />
+          <p className="text-black text-xl md:text-3xl md:mb-4">Consejos para realizar actividad física</p>
         </div>
       </Link>
     </div>
     <div>
       <Link to='/sports4'>
         <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center justify-center gap-2">
-          <img className='w-52 md:w-32 mt-2 md:mt-5' src={entorno} alt="entorno" />
-          <p className="text-black text-xl text-center md:text-3xl md:mb-4">ACTIVIDAD FÍSICA EN <br /> EL ENTORNO</p>
+          <img className='w-24 md:w-32 mt-2 md:mt-5' src={entorno} alt="actividad física en el entorno" />
+          <p className="text-black text-xl md:text-3xl md:mb-4">Actividad física en el entorno</p>
         </div>
       </Link>
     </div>
