@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import nutrition from '../../assets/nutrition.svg';
+import nutricion from '../../assets/nutrition/nutricion.svg';
 import sleep from '../../assets/sleep.svg';
 import saludmental from '../../assets/salud-mental.svg';
 import deporte from '../../assets/deporte.svg';
@@ -21,7 +21,7 @@ const Home = () => {
             <div className="grid grid-cols-2 grid-rows-2 md:grid-cols-4 md:grid-rows-1 gap-4 md:gap-8">
               <Link to='/nutricion'>
                 <button className="p-2 w-full h-52 md:h-72 bg-green rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center justify-center gap-4">
-                  <img className='w-30 md:w-40 md:mb-6' src={nutrition} alt="nutrición" />
+                  <img className='w-30 md:w-40 md:mb-6' src={nutricion} alt="nutrición" />
                   <p className="text-black text-xl md:text-3xl mb-5">Nutrición</p>
                 </button>
               </Link>
