@@ -49,7 +49,7 @@ const Carousel = () => {
             <Link to='/dormir'>
               <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black flex flex-col items-center justify-center gap-2">
                 <img className='w-48 md:w-32 mt-2 md:mt-5' src={dormirbien} alt="Dormir Bien" />
-                <p className="text-black text-xl md:text-3xl md:mb-4">El Dormir Bien</p>
+                <p className="text-black text-xl text-center md:text-3xl md:mb-4">El Dormir Bien</p>
               </div>
             </Link>
           </div>
@@ -57,7 +57,7 @@ const Carousel = () => {
             <Link to='/insomnio'>
               <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black flex flex-col items-center justify-center gap-2">
                 <img className='w-48 md:w-32 mt-2 md:mt-5' src={insomnio} alt="¿Qué es el Insomnio?" />
-                <p className="text-black text-xl md:text-3xl md:mb-4">¿Qué es el Insomnio?</p>
+                <p className="text-black text-xl text-center md:text-3xl md:mb-4">¿Qué es el Insomnio?</p>
               </div>
             </Link>
           </div>
@@ -65,7 +65,7 @@ const Carousel = () => {
             <Link to='/efectos'>
               <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black flex flex-col items-center justify-center gap-2">
                 <img className='w-48 md:w-32 mt-2 md:mt-5' src={efectos} alt="sueño" />
-                <p className="text-black text-xl md:text-3xl md:mb-4">Causas y efectos del Insomnio</p>
+                <p className="text-black text-xl text-center md:text-3xl md:mb-4">Causas y efectos del Insomnio</p>
               </div>
             </Link>
           </div>
@@ -73,7 +73,7 @@ const Carousel = () => {
             <Link to='/habitos'>
               <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black flex flex-col items-center justify-center gap-2">
                 <img className='w-48 md:w-32 mt-2 md:mt-5' src={habitos} alt="¿Cómo Puedo Dormir Mejor?" />
-                <p className="text-black text-xl md:text-3xl md:mb-4">Hábitos para Dormir Bien</p>
+                <p className="text-black text-xl text-center md:text-3xl md:mb-4">Hábitos para Dormir Bien</p>
               </div>
             </Link>
           </div>
@@ -81,7 +81,7 @@ const Carousel = () => {
             <Link to='/estrategias'>
               <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black flex flex-col items-center justify-center gap-2">
                 <img className='w-48 md:w-32 mt-2 md:mt-5' src={estrategias} alt="¿Qué Causas Producen el Insomnio?" />
-                <p className="text-black text-xl md:text-3xl md:mb-4">Estrategias para Favorecer el Sueño</p>
+                <p className="text-black text-xl text-center md:text-3xl md:mb-4">Estrategias para Favorecer el Sueño</p>
               </div>
             </Link>
           </div>
@@ -89,7 +89,7 @@ const Carousel = () => {
             <Link to='/consultarPro'>
             <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black flex flex-col items-center justify-center gap-2">
                 <img className='w-48 md:w-32 mt-2 md:mt-5' src={profesional} alt="¿Qué Causas Producen el Insomnio?" />
-                <p className="text-black text-xl md:text-3xl md:mb-4">¿Cuándo Consultar a un Profesional?</p>
+                <p className="text-black text-xl text-center md:text-3xl md:mb-4">¿Cuándo Consultar a un Profesional?</p>
               </div>
             </Link>
           </div>
