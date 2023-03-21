@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import nutricion from "../../assets/nutrition/nutricion.svg";
-import sleep from "../../assets/sleep.svg";
+import sleep from "../../assets/general/sleep.svg";
 import saludmental from "../../assets/saludmental/salud-mental.svg";
-import deporte from "../../assets/deporte.svg";
+import deporte from "../../assets/general/deporte.svg";
 import { BackButton } from "../../components/Arrow";
 import Nav from "../../components/Nav";
 import Header from "../../components/Header";
@@ -14,7 +14,7 @@ const Home = () => {
       <Header />
       <BackButton />
       <Nav bgColor={"orange"} />
-    
+
       <h1 className='text-orange font-serif text-center text-4xl md:text-5xl font-semibold mt-10 tracking-widest'>Habit +</h1>
       <div className="flex justify-center items-center mt-12 md:mt-24">
         <div className="grid grid-cols-2 grid-rows-2 md:grid-cols-4 md:grid-rows-1 gap-4 md:gap-8">

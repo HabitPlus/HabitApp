@@ -1,14 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import chica from '../../assets/girl-home1.svg'
+import chica from '../../assets/general/girl-home1.svg'
 import Header from '../../components/Header'
-
-
 
 const Landing = () => {
   return (
     <>
-   <Header />
+      <Header />
       <div className='flex flex-col items-center justify-center mx-4'>
         <div className='flex flex-col md:flex-row items-center justify-center gap-2 mt-14'>
           <img src={chica} alt="chica-corriendo" className='w-full md:w-2/3 md:max-xl:' />

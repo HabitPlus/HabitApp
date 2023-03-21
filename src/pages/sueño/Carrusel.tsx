@@ -87,7 +87,7 @@ const Carousel = () => {
           </div>
           <div>
             <Link to='/consultarPro'>
-            <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black flex flex-col items-center justify-center gap-2">
+              <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black flex flex-col items-center justify-center gap-2">
                 <img className='w-48 md:w-32 mt-2 md:mt-5' src={profesional} alt="¿Qué Causas Producen el Insomnio?" />
                 <p className="text-black text-xl text-center md:text-3xl md:mb-4">¿Cuándo Consultar a un Profesional?</p>
               </div>
