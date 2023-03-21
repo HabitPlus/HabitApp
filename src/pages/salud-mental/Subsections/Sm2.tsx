@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../../../components/Footer";
 import { BackButton } from "../../../components/Arrow";
 import Header from "../../../components/Header";
 import Nav from "../../../components/Nav";

@@ -19,7 +19,7 @@ const Efectos = () => {
         Escucha el programa de Ángeles Caballero de Onda Cero sobre las causas que producen mal dormir:  <br />
         <br />
        
-        <a className='bg-blue' href="https://www.ondacero.es/programas/mas-de-uno/audios-podcast/que-sabemos/mal-dormir-causas-formas-poner-fin-noches-vela_20220207620117b7f6a5490001dd3f8d.html" target='_blank'>Para escuchar el programa dar Click Aquí</a>
+        <a className='bg-blue' href="https://www.ondacero.es/programas/mas-de-uno/audios-podcast/que-sabemos/mal-dormir-causas-formas-poner-fin-noches-vela_20220207620117b7f6a5490001dd3f8d.html" target='_blank' rel="noreferrer">Para escuchar el programa dar Click Aquí</a>
         </p>
 
       </div>

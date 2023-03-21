@@ -1,6 +1,5 @@
 import React from 'react'
 import { BackButton } from '../../../../components/Arrow'
-import Footer from '../../../../components/Footer'
 import Header from '../../../../components/Header'
 import Nav from '../../../../components/Nav'
 import piramide from '../../../../assets/nutrition/piramide.svg'
@@ -20,7 +19,7 @@ const CocinaSaludable = () => {
           </p>
         </article>
         <article className='grid grid-rows-1 justify-center p-8 '>
-          <img src={piramide} />
+          <img src={piramide} alt='Piramide de alimentos' />
         </article>
         <article className='grid grid-rows-1 ml-6 mr-6 md:text-xl lg:mx-72'>
           <p> Se debe comer más alimentos de origen vegetal frescos -a poder ser-, como:  frutas, verduras, semillas, frutos secos, cereales y legumbres. Buscar alimentos integrales y usar técnicas de cocina como el vapor, el horno, el salteado, la parrilla o el asado.
