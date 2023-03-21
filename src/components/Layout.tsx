@@ -4,9 +4,9 @@ type Props = {}
 
 const Layout = (props: Props) => {
     return (
-       <>
-       <Outlet/>
-       </>
+        <>
+            <Outlet />
+        </>
     )
 }
 export default Layout
