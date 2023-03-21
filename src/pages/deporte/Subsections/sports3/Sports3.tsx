@@ -1,6 +1,6 @@
 import React from 'react'
 import { BackButton } from '../../../../components/Arrow'
-import Footer from '../../../../components/Footer'
+import Footer from '../../../../components/footer/Footer'
 import Header from '../../../../components/Header'
 import Nav from '../../../../components/Nav'
 
@@ -22,7 +22,7 @@ const Sports3 = () => {
           <li className='text-black text-justify text-lg md:text-xl leading-8'> Después de hacer ejercicio, ducharse y lavar la ropa.</li>
         </ul>
         <h2 className='text-black text-justify text-lg md:text-xl leading-8'>Puedes ver el siguiente video con recomendaciones de la OMS
-          sobre actividades físicas:<a className='bg-blue' href="https://www.youtube.com/watch?v=DcZO3YzbWuA" target='_blank'>Click Aquí</a></h2>
+          sobre actividades físicas:<a className='bg-blue' href="https://www.youtube.com/watch?v=DcZO3YzbWuA" target='_blank' rel="noreferrer">Click Aquí</a></h2>
       </div>
       <Footer />
     </>

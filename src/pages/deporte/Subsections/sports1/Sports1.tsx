@@ -1,6 +1,6 @@
 import React from 'react'
 import { BackButton } from '../../../../components/Arrow'
-import Footer from '../../../../components/Footer'
+import Footer from '../../../../components/footer/Footer'
 import Header from '../../../../components/Header'
 import Nav from '../../../../components/Nav'
 
@@ -25,7 +25,7 @@ const Sports1 = () => {
           <li className='text-black text-justify text-lg md:text-xl leading-8'><h3 className='text-justify text-xl font-serif md:text-6xl'>18 a 64 años:</h3> Actividades aeróbicas entre 120 y 300 minutos al día
             Fortalecimiento muscular</li>
         </ol>
-        <h2 className='text-black text-justify text-lg md:text-xl leading-8'>Fuente: OMS en: <a className='bg-blue' href="https://www.who.int/es/news-room/fact-sheets/detail/physical-activity" target='_blank'>Click Aquí</a></h2>
+        <h2 className='text-black text-justify text-lg md:text-xl leading-8'>Fuente: OMS en: <a className='bg-blue' href="https://www.who.int/es/news-room/fact-sheets/detail/physical-activity" target='_blank' rel="noreferrer" >Click Aquí</a></h2>
       </div>
       <Footer />
     </>
