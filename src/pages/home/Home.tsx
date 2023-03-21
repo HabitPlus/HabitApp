@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import nutricion from "../../assets/nutrition/nutricion.svg";
 import sleep from "../../assets/sleep.svg";
-import saludmental from "../../assets/salud-mental.svg";
+import saludmental from "../../assets/saludmental/salud-mental.svg";
 import deporte from "../../assets/deporte.svg";
 import { BackButton } from "../../components/Arrow";
 import Nav from "../../components/Nav";
