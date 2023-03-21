@@ -16,7 +16,7 @@ const Nutrition: React.FC<DeporteProps> = ({ backgroundColor }) => {
       <Nav bgColor={'#53B965'} />
       <>
         <div className="text-6xl">
-          <h1 className='text-green-font font-serif text-center md: text-5xl font-semibold mt-14 tracking-widest'>Nutrición</h1>
+          <h1 className='text-center mt-14 text-3xl font-serif text-[#53B965]'>Nutrición</h1>
         </div>
         <Carrousel />
         <style type="text/css">

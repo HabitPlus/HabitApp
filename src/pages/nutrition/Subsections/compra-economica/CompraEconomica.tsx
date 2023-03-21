@@ -15,10 +15,7 @@ const CompraEconomica = () => {
         <div className="text-6xl">
           <h1 className='text-green-font font-serif text-center md: text-3xl font-semibold mt-14 tracking-widest'>La compra más económica</h1>
         </div>
-        <article className='flex flex-col text-white text-center font-normal text-xl m-10 p-4 mb-6 py-4 md:p-6 md:text-4xl bg-green-font rounded-3xl'>
-          <h1>¿Cómo ahorrar en la compra de alimentos? </h1>
-        </article>
-        <article className='grid grid-rows-1 p-10 md:text-2xl'>
+        <article className='grid grid-rows-1 p-10 md:text-xl lg:mx-72'>
           <p> Elegir el qué y dónde se compra puede ser una clave para el ahorro. Para que nuestra compra pueda ser más económica, los expertos recomiendan:<br></br></p>
           <p className='mt-3'>•	Apostar por marcas blancas en aquellos productos en los que no se note la diferencia. <br></br></p>
           <p className='mt-3'>•	Elegir supermercados que son más económicos. La OCU publica un listado de estos. <br></br></p>
