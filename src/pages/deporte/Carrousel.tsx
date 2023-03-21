@@ -45,13 +45,13 @@ const Carrousel = () => {
 
   return (
     <>
-    <div className="mt-14 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-6 mx-4">
+    <div className="mt-14 grid grid-cols-1 gap-6 mx-16">
   <Slider {...settings}>
     <div>
       <Link to='/sports1'>
         <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center justify-center gap-2">
           <img className='w-24 md:w-32 mt-2 md:mt-5' src={importancia} alt="Importancia de la actividad física" />
-          <p className="text-black text-xl md:text-3xl md:mb-4">Importancia de la actividad física</p>
+          <p className="text-black text-xl text-center md:text-3xl md:mb-4">Importancia de la actividad física</p>
         </div>
       </Link>
     </div>
@@ -59,7 +59,7 @@ const Carrousel = () => {
       <Link to='/sports2'>
         <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center justify-center gap-2">
           <img className='w-24 md:w-32 mt-2 md:mt-5' src={tipos} alt="Tipos de actividad física" />
-          <p className="text-black text-xl md:text-3xl md:mb-4">Tipos de actividad física</p>
+          <p className="text-black text-xl text-center md:text-3xl md:mb-4">Tipos de actividad física</p>
         </div>
       </Link>
     </div>
@@ -67,7 +67,7 @@ const Carrousel = () => {
       <Link to='/sports3'>
         <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center justify-center gap-2">
           <img className='w-24 md:w-32 mt-2 md:mt-5' src={consejos} alt="consejos para realizar actividad física" />
-          <p className="text-black text-xl md:text-3xl md:mb-4">Consejos para realizar actividad física</p>
+          <p className="text-black text-xl text-center md:text-3xl md:mb-4">Consejos para realizar actividad física</p>
         </div>
       </Link>
     </div>
@@ -75,7 +75,7 @@ const Carrousel = () => {
       <Link to='/sports4'>
         <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center justify-center gap-2">
           <img className='w-24 md:w-32 mt-2 md:mt-5' src={entorno} alt="actividad física en el entorno" />
-          <p className="text-black text-xl md:text-3xl md:mb-4">Actividad física en el entorno</p>
+          <p className="text-black text-xl text-center md:text-3xl md:mb-4">Actividad física en el entorno</p>
         </div>
       </Link>
     </div>

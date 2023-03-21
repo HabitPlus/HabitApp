@@ -43,7 +43,7 @@ const Carousel = () => {
 
   return (
     <>
-      <div className="mt-14 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-6 mx-4">
+      <div className="mt-14 grid grid-cols-1 gap-6 mx-16">
         <Slider {...settings}>
           <div>
             <Link to='/dormir'>
