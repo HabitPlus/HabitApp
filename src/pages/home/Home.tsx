@@ -4,9 +4,9 @@ import nutricion from "../../assets/nutrition/nutricion.svg";
 import sleep from "../../assets/general/sleep.svg";
 import saludmental from "../../assets/saludmental/salud-mental.svg";
 import deporte from "../../assets/general/deporte.svg";
-import { BackButton } from "../../components/Arrow";
-import Nav from "../../components/Nav";
-import Header from "../../components/Header";
+import { BackButton } from "../../components/arrow/Arrow";
+import Nav from "../../components/nav/Nav";
+import Header from "../../components/header/Header";
 
 const Home = () => {
   return (

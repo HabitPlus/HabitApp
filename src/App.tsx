@@ -7,7 +7,7 @@ import Home from "./pages/home/Home";
 import Deporte from "./pages/deporte/Deporte";
 import Sueño from "./pages/sueño/Sueño";
 import SaludMental from "./pages/salud-mental/SaludMental";
-import Contact from "./pages/contacto/contact";
+import Contact from "./pages/contacto/Contacto";
 import Importancia from "./pages/deporte/Subsections/importancia/Importancia";
 import Tipos from "./pages/deporte/Subsections/tipos/Tipos";
 import Empezar from "./pages/deporte/Subsections/empezar/Empezar";
@@ -28,8 +28,6 @@ import ConsejosAlimentos from "./pages/nutrition/Subsections/consejos-alimentos/
 import CompraEconomica from "./pages/nutrition/Subsections/compra-economica/CompraEconomica";
 import RecetasSaludables from "./pages/nutrition/Subsections/recetas-saludables/RecetasSaludables";
 
-
-
 function App() {
   return (
     <> 
@@ -47,23 +45,24 @@ function App() {
             <Route path="/estrategias" element={<Estrategias />} />
 
             <Route path="/deporte" element={<Deporte backgroundColor="#F8EFD4" />} />
+            <Route path="/importancia" element={<Importancia />} />
+            <Route path="/tipos" element={<Tipos />} />
+            <Route path="/empezar" element={<Empezar />} />
+            <Route path="/actividad" element={<Actividad />} />
+
             <Route path="/nutricion" element={<Nutrition backgroundColor={"#E3F9EA"} />} />
             <Route path="/cocina-saludable" element={<CocinaSaludable />} />
             <Route path="/consejos-para-aprovechar-los-alimentos" element={<ConsejosAlimentos />} />
             <Route path="/la-compra-más-económica" element={<CompraEconomica />} />
             <Route path="/recetas-saludables" element={<RecetasSaludables />} />
+
             <Route path="/salud-mental" element={<SaludMental backgroundColor='#DFBBFF'/>} />
-            <Route path="/deporte" element={<Deporte backgroundColor="#FFEBB0" />} />
-            <Route path="/contact" element={<Contact backgroundColor="#FFFCF3" />} />
-            <Route path="/importancia" element={<Importancia />} />
-            <Route path="/tipos" element={<Tipos />} />
-            <Route path="/empezar" element={<Empezar />} />
-            <Route path="/actividad" element={<Actividad />} />
             <Route path="/que-es" element={<QueEs />} />
             <Route path="/señales" element={<Señales />} />
             <Route path="/promover" element={<Promover />} />
             <Route path="/consultar" element={<Consultar />} />
-          
+
+            <Route path="/contact" element={<Contact backgroundColor="#FFFCF3" />} />
             </Route>
         </Routes>
     </>

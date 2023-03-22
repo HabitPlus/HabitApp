@@ -1,9 +1,9 @@
 import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Header from "../../components/Header";
-import { BackButton } from "../../components/Arrow";
-import Nav from "../../components/Nav";
+import Header from "../../components/header/Header";
+import { BackButton } from "../../components/arrow/Arrow";
+import Nav from "../../components/nav/Nav";
 import Carrusel from "../sueño/Carrusel";
 
 interface SueñoProps {

@@ -10,7 +10,7 @@ import Landing from '../landing/Landing';
 import SaludMental from '../salud-mental/SaludMental';
 import Deporte from '../deporte/Deporte';
 import Sueño from '../sueño/Sueño';
-import Contact from '../contacto/contact';
+import Contact from '../contacto/Contacto';
 
 describe('Button', () => {
   it('should render a button', () => {

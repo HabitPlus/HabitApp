@@ -1,6 +1,6 @@
 import React from 'react';
-import home from '../assets/general/home-icon.svg';
-import contact from '../assets/general/contact-icon.svg';
+import home from '../../assets/general/home-icon.svg';
+import contact from '../../assets/general/contact-icon.svg';
 import { Link } from 'react-router-dom';
 
 interface NavProps {

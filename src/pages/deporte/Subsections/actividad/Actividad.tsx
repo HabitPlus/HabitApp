@@ -1,10 +1,10 @@
 import React from 'react'
-import { BackButton } from '../../../../components/Arrow'
+import { BackButton } from '../../../../components/arrow/Arrow'
 import Footer from '../../../../components/footer/Footer'
-import Header from '../../../../components/Header'
-import Nav from '../../../../components/Nav'
+import Header from '../../../../components/header/Header'
+import Nav from '../../../../components/nav/Nav'
 
-const Sports4 = () => {
+const Actividad = () => {
   return (
     <>
       <Header />
@@ -30,4 +30,4 @@ const Sports4 = () => {
     </>
   )
 }
-export default Sports4
+export default Actividad
