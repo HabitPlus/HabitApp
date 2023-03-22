@@ -9,7 +9,8 @@ const CocinaSaludable = () => {
     <>
       <Header />
       <BackButton />
-      <>
+      <Nav bgColor={'#53B965'} />
+      <div className='mb-20'>
         <div className="text-6xl mt-14">
           <h1 className='text-green-font font-serif text-center md: text-3xl font-semibold tracking-widest'>Cocina saludable</h1>
         </div>
@@ -26,9 +27,7 @@ const CocinaSaludable = () => {
             Es igualmente importante, comer cinco veces al día, en el mismo horario y tratar de no picar entre horas. Una alimentación saludable reduce el riesgo de enfermedades en el futuro.
           </p>
         </article>
-      </>
-      <br></br>
-      <Nav bgColor={'#53B965'}/>
+      </div>
     </>
   )
 }

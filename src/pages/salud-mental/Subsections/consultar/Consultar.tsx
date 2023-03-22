@@ -3,21 +3,20 @@ import { BackButton } from "../../../../components/Arrow";
 import Header from "../../../../components/Header";
 import Nav from "../../../../components/Nav";
 
-const Sm4 = () => {
+const Consultar = () => {
   return (
     <>
       <Header />
       <BackButton />
-      <Nav bgColor={'#9F3BF8'}/>
+      <Nav bgColor={'#9F3BF8'} />
 
-      <div className="p-4">
+      <div className="p-4 mb-20">
         <div className="flex flex-col items-center mt-10">
           <h1 className="text-2xl text-center h-fit w-fit p-2 rounded-lg md:text-3xl font-serif text-[#9F3BF8]  ">
             ¿Cuándo consultar a un profesional?
           </h1>
         </div>
-
-        <div className="justify-center p-8 text-justify text-base lg:mx-72 indent-6 mb-20">
+        <div className="justify-center p-8 text-justify text-base lg:mx-72 indent-6">
           <p>
             El Ministerio de Sanidad señala que si sientes que no tienes
             fuerzas, todo te supera, te sientes vacío, estás pero no estás o te
@@ -29,20 +28,13 @@ const Sm4 = () => {
             tengas y si hiciera falta te enviará al psiquiatra (para optimizar
             la medicación), o al psicólogo (para hacer terapia).{" "}
           </p>
-
           <br />
-
-          
           <p className="italic">
-          Fuente: Ministerio de Sanidad
+            Fuente: Ministerio de Sanidad
             <a
               href="https://www.sanidad.gob.es/campannas/campanas21/HablemosDeSaludMental.htm "
               target={"_blank"}
-              rel="noreferrer" className="underline"
-            >
-              {" "}
-              https://www.sanidad.gob.es/campannas/campanas21/HablemosDeSaludMental.htm 
-            </a>
+              rel="noreferrer" className="underline"> Click Aqui </a>
           </p>
         </div>
       </div>
@@ -50,4 +42,4 @@ const Sm4 = () => {
   );
 };
 
-export default Sm4;
+export default Consultar;

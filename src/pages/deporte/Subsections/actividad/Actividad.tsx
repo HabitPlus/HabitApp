@@ -10,7 +10,7 @@ const Sports4 = () => {
       <Header />
       <BackButton />
       <Nav bgColor={'#FFC727'} />
-      <div className='flex flex-col items-center justify-center text-center mt-10 px-8 md:px-0'>
+      <div className='flex flex-col items-center justify-center text-center mt-10 px-8 md:px-0 mb-20'>
         <h1 className='text-black font-serif text-xl md:text-4xl p-4 mb-6 py-4 md:p-6 text-[#FFC727] rounded-lg '>ACTIVIDAD FÍSICA EN EL ENTORNO</h1>
       </div>
       <div className='justify-center p-8 text-justify text-base lg:mx-72 indent-6 mb-20 text-black md:text-xl md:text-left '>

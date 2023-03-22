@@ -9,7 +9,7 @@ const Consultar = () => {
       <Header />
       <BackButton />
       <Nav bgColor={"#5A88FC"} />
-      <div className="flex flex-col items-center justify-center text-center mt-10 px-8 md:px-0">
+      <div className="flex flex-col items-center justify-center text-center mt-10 px-8 md:px-0 mb-20">
         <h1 className="text-[#5A88FC] font-serif text-xl md:text-4xl p-4 mb-6 py-4 md:p-6 rounded-lg ">
           Cuándo debo Consultar a un Profesional
         </h1>

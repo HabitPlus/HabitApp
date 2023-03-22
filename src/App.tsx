@@ -33,7 +33,6 @@ import RecetasSaludables from "./pages/nutrition/Subsections/recetas-saludables/
 function App() {
   return (
     <> 
-<div className="container">
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<Landing />} />
@@ -67,7 +66,6 @@ function App() {
           
             </Route>
         </Routes>
-        </div>
     </>
   );
 }

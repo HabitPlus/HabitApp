@@ -3,21 +3,20 @@ import { BackButton } from "../../../../components/Arrow";
 import Header from "../../../../components/Header";
 import Nav from "../../../../components/Nav";
 
-const Sm2 = () => {
+const Señales = () => {
   return (
     <>
       <Header />
       <BackButton />
-      <Nav bgColor={'#9F3BF8'}/>
+      <Nav bgColor={'#9F3BF8'} />
 
-      <div className="p-4">
+      <div className="p-4 mb-20">
         <div className="flex flex-col items-center mt-10">
           <h1 className="text-2xl text-center h-fit w-fit p-2 rounded-lg md:text-3xl font-serif text-[#9F3BF8] ">
             Señales de problemas de salud mental
           </h1>
         </div>
-
-        <div className="justify-center p-8 text-justify text-base lg:mx-72 indent-6 mb-20">
+        <div className="justify-center p-8 text-justify text-base lg:mx-72 indent-6">
           <p>
             Hay una serie de señales que nos indican que debemos hacer algo para
             ponernos mejor. Éstas señales son diferentes de una persona a otra y
@@ -25,7 +24,6 @@ const Sm2 = () => {
             experimentando:
           </p>
           <br />
-
           <ul className="list-disc indent-1 lg:indent-4">
             <li>
               Cambios en los hábitos alimentarios (comer más o dejar de comer y
@@ -66,11 +64,8 @@ const Sm2 = () => {
           <p className="italic">
             Fuente: Psicología y Mente en
             <a href="https://psicologiaymente.com/clinica/senales-baja-salud-mental" target={"_blank"} rel="noreferrer" className="underline"> Dar Click Aqui</a>
-            
           </p>
-
           <br />
-
           <p className="font-bold">
             Tener uno o varios de estos signos no son indicadores de un problema
             per se, pero nos están señalando que algo ocurre en nuestro interior
@@ -82,4 +77,4 @@ const Sm2 = () => {
   );
 };
 
-export default Sm2;
+export default Señales;
