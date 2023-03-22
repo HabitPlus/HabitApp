@@ -23,7 +23,7 @@ const QueEs = () => {
             comunidad. Tener buena salud mental supone que seamos capaces de
             analizar la necesidades que tenemos y las situaciones que vivimos y
             contar con recursos básicos.
-          </p>
+          </p><br />
           <p> Deberíamos poder sentirnos seguros y
             reconocidos por las personas de nuestro entorno para generar una
             visión positiva de nosotros/as mismos/as y por último, hacer planes

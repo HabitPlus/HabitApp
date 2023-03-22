@@ -11,7 +11,7 @@ const Empezar = () => {
       <BackButton />
       <Nav bgColor={'#FFC727'} />
       <div className='flex flex-col items-center justify-center text-center mt-10 px-8 md:px-0 mb-20'>
-        <h1 className='text-black font-serif text-xl md:text-4xl p-4 mb-6 py-4 md:p-6 text-[#FFC727] rounded-lg '>CONSEJOS PARA REALIZAR <br /> ACTIVIDAD FÍSICA</h1>
+        <h1 className='text-black font-serif text-3xl md:text-4xl p-4 mb-6 py-4 md:p-6 text-[#FFC727] rounded-lg '>CONSEJOS PARA REALIZAR <br /> ACTIVIDAD FÍSICA</h1>
         <p className='text-black text-justify text-lg md:text-xl leading-8'>Empezar a hacer ejercicio requiere que tengamos en consideración una
           serie de consejos, como:</p>
         <ul>

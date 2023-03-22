@@ -25,7 +25,7 @@ const Insomnio = () => {
           </p>
           <p>
             Escucha el siguiente podcast que habla de porqué no podemos dormir:<br /><br />
-            <a className='bg-blue' href="https://www.iepp.es/insomnio-no-puedo-dormir/" target='_blank' rel="noreferrer">Para escuchar el podcast dar Click Aquí</a>
+            <a className='underline' href="https://www.iepp.es/insomnio-no-puedo-dormir/" target='_blank' rel="noreferrer">Para escuchar el podcast dar Click Aquí</a>
           </p>
         </div>
       </div>
