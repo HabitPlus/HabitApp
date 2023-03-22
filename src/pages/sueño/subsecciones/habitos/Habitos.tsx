@@ -1,8 +1,8 @@
 import React from 'react'
-import Header from '../../../components/Header'
-import Nav from '../../../components/Nav'
-import imgHabitos from '../../../assets/sleep/imgHabitos.jpg'
-import { BackButton } from '../../../components/Arrow'
+import Header from '../../../../components/Header'
+import Nav from '../../../../components/Nav'
+import imgHabitos from '../../../../assets/sleep/imgHabitos.jpg'
+import { BackButton } from '../../../../components/Arrow'
 
 const Habitos = () => {
   return (

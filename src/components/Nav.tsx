@@ -9,11 +9,9 @@ interface NavProps {
 const Nav: React.FC<NavProps> = ({ bgColor }) => {
   return (
     <div>
-      <footer
-        className={`text-white flex items-center justify-center h-20 gap-32
+      <footer className={`text-white flex items-center justify-center h-16 gap-32
         backdrop-blur-sm w-full box-border fixed bottom-0`}
-        style={{ backgroundColor: bgColor }}
-      >
+        style={{ backgroundColor: bgColor }}>
         <div>
           <Link to={'/home'}>
             <img className="cursor-pointer" src={home} alt="" />

@@ -1,7 +1,7 @@
 import React from "react";
-import { BackButton } from "../../../components/Arrow";
-import Header from "../../../components/Header";
-import Nav from "../../../components/Nav";
+import { BackButton } from "../../../../components/Arrow";
+import Header from "../../../../components/Header";
+import Nav from "../../../../components/Nav";
 
 const Sm3 = () => {
   return (

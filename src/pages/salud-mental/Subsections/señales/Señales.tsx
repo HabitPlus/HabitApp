@@ -1,7 +1,7 @@
 import React from "react";
-import { BackButton } from "../../../components/Arrow";
-import Header from "../../../components/Header";
-import Nav from "../../../components/Nav";
+import { BackButton } from "../../../../components/Arrow";
+import Header from "../../../../components/Header";
+import Nav from "../../../../components/Nav";
 
 const Sm2 = () => {
   return (
@@ -65,13 +65,13 @@ const Sm2 = () => {
           <br />
           <p className="italic">
             Fuente: Psicología y Mente en
-            <a href="https://psicologiaymente.com/clinica/senales-baja-salud-mental" target={"_blank"} rel="noreferrer" className="underline"> https://psicologiaymente.com/clinica/senales-baja-salud-mental</a>
+            <a href="https://psicologiaymente.com/clinica/senales-baja-salud-mental" target={"_blank"} rel="noreferrer" className="underline"> Dar Click Aqui</a>
             
           </p>
 
           <br />
 
-          <p className="underline font-bold">
+          <p className="font-bold">
             Tener uno o varios de estos signos no son indicadores de un problema
             per se, pero nos están señalando que algo ocurre en nuestro interior
             que debemos atender.

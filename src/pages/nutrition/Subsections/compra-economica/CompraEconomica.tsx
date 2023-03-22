@@ -28,7 +28,7 @@ const CompraEconomica = () => {
             <p className='mt-3'>•	Realizar una compra semanal. <br></br></p>
             <p className='mt-3'>Mira el siguiente video de Paula Simple que explica estas y otras claves:<br></br></p>
           </article>
-          <a className='bg-green mb-32 md:text-xl text-base mt-2' href='https://www.youtube.com/watch?v=MlcH1TocMSA' target='_blank'>Click aquí</a>
+          <a className='bg-green mb-32 md:text-xl text-base mt-2' href='https://www.youtube.com/watch?v=MlcH1TocMSA' target='_blank' rel="noreferrer">Click aquí</a>
         </div>
       </>
     </>

@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Landing from "./pages/landing/Landing";
 import Layout from "./components/Layout";
 import Home from "./pages/home/Home";
@@ -8,20 +8,20 @@ import Deporte from "./pages/deporte/Deporte";
 import Sueño from "./pages/sueño/Sueño";
 import SaludMental from "./pages/salud-mental/SaludMental";
 import Contact from "./pages/contacto/contact";
-import Sports1 from "./pages/deporte/Subsections/sports1/Sports1";
-import Sports2 from "./pages/deporte/Subsections/sports2/Sports2";
-import Sports3 from "./pages/deporte/Subsections/sports3/Sports3";
-import Sports4 from "./pages/deporte/Subsections/sports4/Sports4";
-import ConsultarPro from "./pages/sueño/subsecciones/ConsultarPro";
-import Dormir from "./pages/sueño/subsecciones/Dormir";
-import Efectos from "./pages/sueño/subsecciones/Efectos";
-import Estrategias from "./pages/sueño/subsecciones/Estrategias";
-import Habitos from "./pages/sueño/subsecciones/Habitos";
-import Insomnio from "./pages/sueño/subsecciones/Insomnio";
-import Sm1 from "./pages/salud-mental/Subsections/Sm1";
-import Sm2 from "./pages/salud-mental/Subsections/Sm2";
-import Sm3 from "./pages/salud-mental/Subsections/Sm3";
-import Sm4 from "./pages/salud-mental/Subsections/Sm4";
+import Importancia from "./pages/deporte/Subsections/importancia/Importancia";
+import Tipos from "./pages/deporte/Subsections/tipos/Tipos";
+import Empezar from "./pages/deporte/Subsections/empezar/Empezar";
+import Actividad from "./pages/deporte/Subsections/actividad/Actividad";
+import ConsultarPro from "./pages/sueño/subsecciones/consultar/ConsultarPro";
+import Dormir from "./pages/sueño/subsecciones/dormir/Dormir";
+import Efectos from "./pages/sueño/subsecciones/efectos/Efectos";
+import Estrategias from "./pages/sueño/subsecciones/estrategias/Estrategias";
+import Habitos from "./pages/sueño/subsecciones/habitos/Habitos";
+import Insomnio from "./pages/sueño/subsecciones/insomnio/Insomnio";
+import QueEs from "./pages/salud-mental/Subsections/quees/QueEs";
+import Señales from "./pages/salud-mental/Subsections/señales/Señales";
+import Promover from "./pages/salud-mental/Subsections/promover/Promover";
+import Consultar from "./pages/salud-mental/Subsections/consultar/Consultar";
 import CocinaSaludable from "./pages/nutrition/Subsections/cocina-saludable/CocinaSaludable";
 import Nutrition from "./pages/nutrition/Nutrition";
 import ConsejosAlimentos from "./pages/nutrition/Subsections/consejos-alimentos/ConsejosAlimentos";
@@ -33,11 +33,11 @@ import RecetasSaludables from "./pages/nutrition/Subsections/recetas-saludables/
 function App() {
   return (
     <> 
+<div className="container">
         <Routes>
           <Route element={<Layout />}>
             <Route path="/" element={<Landing />} />
             <Route path="/home" element={<Home />} />
-
 
             <Route path="/sueño" element={<Sueño backgroundColor="#CCEBFB" />} />
             <Route path="/dormir" element={<Dormir />} />
@@ -56,38 +56,20 @@ function App() {
             <Route path="/salud-mental" element={<SaludMental backgroundColor='#DFBBFF'/>} />
             <Route path="/deporte" element={<Deporte backgroundColor="#FFEBB0" />} />
             <Route path="/contact" element={<Contact backgroundColor="#FFFCF3" />} />
-            <Route path="/sports1" element={<Sports1 />} />
-            <Route path="/sports2" element={<Sports2 />} />
-            <Route path="/sports3" element={<Sports3 />} />
-            <Route path="/sports4" element={<Sports4 />} />
-            <Route path="/sm1" element={<Sm1 />} />
-            <Route path="/sm2" element={<Sm2 />} />
-            <Route path="/sm3" element={<Sm3 />} />
-            <Route path="/sm4" element={<Sm4 />} />
-          </Route>
+            <Route path="/importancia" element={<Importancia />} />
+            <Route path="/tipos" element={<Tipos />} />
+            <Route path="/empezar" element={<Empezar />} />
+            <Route path="/actividad" element={<Actividad />} />
+            <Route path="/que-es" element={<QueEs />} />
+            <Route path="/señales" element={<Señales />} />
+            <Route path="/promover" element={<Promover />} />
+            <Route path="/consultar" element={<Consultar />} />
+          
+            </Route>
         </Routes>
+        </div>
     </>
   );
 }
 
 export default App;
-
-// import React from 'react'
-// import "./App.css";
-// import { BrowserRouter } from "react-router-dom";
-// import Routes from './routes/Routes';
-
-
-// const App = () => {
-//   return (
-//     <>
-    
-//     <div className="container">
-//     <Routes />
-//     </div>
-   
-//     </>
-//   )
-// }
-
-// export default App
