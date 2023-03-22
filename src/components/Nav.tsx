@@ -10,7 +10,7 @@ const Nav: React.FC<NavProps> = ({ bgColor }) => {
   return (
     <div>
       <footer className={`text-white flex items-center justify-center h-16 gap-32
-        backdrop-blur-sm w-full box-border fixed bottom-0`}
+        backdrop-blur-sm w-full box-border fixed bottom-0 md:hidden`}
         style={{ backgroundColor: bgColor }}>
         <div>
           <Link to={'/home'}>
