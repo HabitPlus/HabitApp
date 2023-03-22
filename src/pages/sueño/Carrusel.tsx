@@ -3,7 +3,6 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { Link } from 'react-router-dom';
-import sleep from '../../assets/sleep.svg'
 import dormirbien from '../../assets//sleep/dormirbien.svg'
 import efectos from '../../assets//sleep/efectos.svg'
 import habitos from '../../assets//sleep/habitos.svg'
@@ -48,7 +47,7 @@ const Carousel = () => {
           <div>
             <Link to='/dormir'>
               <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black flex flex-col items-center justify-center gap-2">
-                <img className='w-48 md:w-32 mt-2 md:mt-5' src={dormirbien} alt="Dormir Bien" />
+                <img className='w-52 md:w-32 mt-2 md:mt-5' src={dormirbien} alt="Dormir Bien" />
                 <p className="text-black text-xl text-center md:text-3xl md:mb-4">El Dormir Bien</p>
               </div>
             </Link>
@@ -56,7 +55,7 @@ const Carousel = () => {
           <div>
             <Link to='/insomnio'>
               <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black flex flex-col items-center justify-center gap-2">
-                <img className='w-48 md:w-32 mt-2 md:mt-5' src={insomnio} alt="¿Qué es el Insomnio?" />
+                <img className='w-52 md:w-32 mt-2 md:mt-5' src={insomnio} alt="¿Qué es el Insomnio?" />
                 <p className="text-black text-xl text-center md:text-3xl md:mb-4">¿Qué es el Insomnio?</p>
               </div>
             </Link>
@@ -64,7 +63,7 @@ const Carousel = () => {
           <div>
             <Link to='/efectos'>
               <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black flex flex-col items-center justify-center gap-2">
-                <img className='w-48 md:w-32 mt-2 md:mt-5' src={efectos} alt="sueño" />
+                <img className='w-52 md:w-32 mt-2 md:mt-5' src={efectos} alt="sueño" />
                 <p className="text-black text-xl text-center md:text-3xl md:mb-4">Causas y efectos del Insomnio</p>
               </div>
             </Link>
@@ -72,7 +71,7 @@ const Carousel = () => {
           <div>
             <Link to='/habitos'>
               <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black flex flex-col items-center justify-center gap-2">
-                <img className='w-48 md:w-32 mt-2 md:mt-5' src={habitos} alt="¿Cómo Puedo Dormir Mejor?" />
+                <img className='w-52 md:w-32 mt-2 md:mt-5' src={habitos} alt="¿Cómo Puedo Dormir Mejor?" />
                 <p className="text-black text-xl text-center md:text-3xl md:mb-4">Hábitos para Dormir Bien</p>
               </div>
             </Link>

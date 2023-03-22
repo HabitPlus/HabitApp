@@ -47,7 +47,7 @@ function App() {
             <Route path="/deporte" element={<Deporte backgroundColor="#F8EFD4" />} />
             <Route path="/importancia" element={<Importancia />} />
             <Route path="/tipos" element={<Tipos />} />
-            <Route path="/empezar" element={<Empezar />} />
+            <Route path="/consejos" element={<Empezar />} />
             <Route path="/actividad" element={<Actividad />} />
 
             <Route path="/nutricion" element={<Nutrition backgroundColor={"#E3F9EA"} />} />

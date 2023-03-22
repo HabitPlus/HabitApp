@@ -44,7 +44,7 @@ const CarrouselMental = () => {
         <Slider {...settings}>
           <div>
             <Link to='/que-es'>
-              <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center justify-center gap-2">
+              <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black flex flex-col items-center justify-center gap-2">
                 <img className='w-52 md:w-32 mt-2 md:mt-5' src={Salud2} alt="tipos" />
                 <p className="text-black text-xl text-center md:text-2xl md:mb-4">¿Que es la salud mental?</p>
               </div>
@@ -52,7 +52,7 @@ const CarrouselMental = () => {
           </div>
           <div>
             <Link to='/señales'>
-              <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center justify-center gap-2">
+              <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black flex flex-col items-center justify-center gap-2">
                 <img className='w-52 md:w-32 mt-2 md:mt-5' src={Salud3} alt="consejos" />
                 <p className="text-black text-xl text-center md:text-2xl md:mb-4">Señales de problemas de salud mental</p>
               </div>
@@ -60,7 +60,7 @@ const CarrouselMental = () => {
           </div>
           <div>
             <Link to='/promover'>
-              <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center justify-center gap-2">
+              <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black flex flex-col items-center justify-center gap-2">
                 <img className='w-52 md:w-32 mt-2 md:mt-5' src={Salud4} alt="entorno" />
                 <p className="text-black text-xl text-center md:text-2xl md:mb-4">¿Cómo promover una buena salud mental?</p>
               </div>
@@ -68,7 +68,7 @@ const CarrouselMental = () => {
           </div>
           <div>
             <Link to='/consultar'>
-              <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center justify-center gap-2">
+              <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black flex flex-col items-center justify-center gap-2">
                 <img className='w-52 md:w-32 mt-2 md:mt-5' src={Salud1} alt="imagensalud" />
                 <p className="text-black text-xl text-center md:text-2xl md:mb-4">¿Cuándo consultar a un profesional?</p>
               </div>
