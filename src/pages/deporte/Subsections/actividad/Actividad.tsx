@@ -10,6 +10,8 @@ const Actividad = () => {
       <Header />
       <BackButton />
       <Nav bgColor={'#FFC727'} />
+      <Footer bgColor={'#FFC727'} />
+      
       <div className='flex flex-col items-center justify-center text-center mt-10 px-8 md:px-0 '>
         <h1 className='text-black font-serif text-3xl md:text-4xl p-4 py-4 md:p-6 text-[#FFC727] rounded-lg '>ACTIVIDAD FÍSICA EN EL ENTORNO</h1>
       </div>
