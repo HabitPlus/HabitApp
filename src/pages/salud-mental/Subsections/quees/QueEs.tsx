@@ -2,6 +2,7 @@ import React from "react";
 import { BackButton } from "../../../../components/arrow/Arrow";
 import Header from "../../../../components/header/Header";
 import Nav from "../../../../components/nav/Nav";
+import Footer from '../../../../components/footer/Footer';
 
 const QueEs = () => {
   return (
@@ -9,6 +10,8 @@ const QueEs = () => {
       <Header />
       <BackButton />
       <Nav bgColor={'#9F3BF8'} />
+      <Footer bgColor={'#9F3BF8'} />
+      
       <div className="mb-20">
         <div className="flex flex-col items-center mt-10">
           <h1 className="text-2xl text-center h-fit w-fit p-2 rounded-lg md:text-3xl md:p-4 font-serif text-[#9F3BF8]">

@@ -9,6 +9,7 @@ import habitos from '../../assets//sleep/habitos.svg'
 import insomnio from '../../assets//sleep/insomnio.svg'
 import profesional from '../../assets//sleep/profesional.svg'
 import estrategias from '../../assets//sleep/estrategias.svg'
+import Footer from '../../components/footer/Footer'
 
 const Carousel = () => {
   const settings = {
@@ -42,6 +43,7 @@ const Carousel = () => {
 
   return (
     <>
+    <Footer bgColor={"#5A88FC"} />
       <div className="mt-14 grid grid-cols-1 gap-6 mx-16">
         <Slider {...settings}>
           <div>

@@ -2,6 +2,7 @@ import React from 'react'
 import { BackButton } from '../../../../components/arrow/Arrow'
 import Header from '../../../../components/header/Header'
 import Nav from '../../../../components/nav/Nav'
+import Footer from '../../../../components/footer/Footer'
 
 type Props = {}
 
@@ -11,7 +12,8 @@ const RecetasSaludables = (props: Props) => {
       <Header />
       <BackButton />
       <Nav bgColor={'#53B965'} />
-      <>
+      <Footer bgColor={'#53B965'}  />
+      
         <div className='flex flex-col mt-6 ml-6 mr-6 gap-8 items-center justify-center mb-20'>
           <div className="text-6xl">
             <h1 className='text-green-font font-serif text-center md: text-3xl font-semibold mt-14 tracking-widest'>Recetas saludables</h1>
@@ -26,7 +28,6 @@ const RecetasSaludables = (props: Props) => {
           </div>
         </div>
       </>
-    </>
   )
 }
 

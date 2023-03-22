@@ -3,6 +3,7 @@ import { BackButton } from '../../../../components/arrow/Arrow'
 import Header from '../../../../components/header/Header'
 import Nav from '../../../../components/nav/Nav'
 import piramide from '../../../../assets/nutrition/piramide.svg'
+import Footer from '../../../../components/footer/Footer'
 
 const CocinaSaludable = () => {
   return (
@@ -10,7 +11,9 @@ const CocinaSaludable = () => {
       <Header />
       <BackButton />
       <Nav bgColor={'#53B965'} />
-      <div className='mb-20'>
+      <Footer bgColor={'#53B965'} />
+      
+      <div className='mb-40'>
         <div className="text-6xl mt-14">
           <h1 className='text-green-font font-serif text-center md: text-3xl font-semibold tracking-widest'>Cocina saludable</h1>
         </div>
@@ -28,6 +31,7 @@ const CocinaSaludable = () => {
           </p>
         </article>
       </div>
+      
     </>
   )
 }

@@ -3,6 +3,7 @@ import { BackButton } from '../../../../components/arrow/Arrow'
 import Header from '../../../../components/header/Header'
 import Nav from '../../../../components/nav/Nav'
 import consejos from '../../../../assets/nutrition/consejos.png'
+import Footer from '../../../../components/footer/Footer'
 
 type Props = {}
 
@@ -12,7 +13,8 @@ const ConsejosAlimentos = (props: Props) => {
       <Header />
       <BackButton />
       <Nav bgColor={'#53B965'} />
-
+      <Footer bgColor={'#53B965'} />
+      
       <div className='flex flex-col items-center justify-center mb-20'>
         <div className="text-6xl">
           <h1 className='text-green-font font-serif text-center md: text-3xl font-semibold mt-14 tracking-widest'>Consejos para aprovechar los alimentos</h1>

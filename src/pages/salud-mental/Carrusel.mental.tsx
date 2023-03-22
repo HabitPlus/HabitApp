@@ -7,6 +7,7 @@ import Salud1 from '../../assets/saludmental/salud-mental-1.svg'
 import Salud2 from '../../assets/saludmental/salud-mental-2.svg';
 import Salud3 from '../../assets/saludmental/salud-mental-3.svg';
 import Salud4 from '../../assets/saludmental/salud-mental-4.svg';
+import Footer from '../../components/footer/Footer';
 
 const CarrouselMental = () => {
   const settings = {
@@ -40,6 +41,7 @@ const CarrouselMental = () => {
 
   return (
     <>
+    <Footer bgColor={'#9F3BF8'} />
       <div className="mt-14 grid grid-cols-1 gap-6 max-w-278 mx-16">
         <Slider {...settings}>
           <div>

@@ -10,6 +10,7 @@ const Empezar = () => {
       <Header />
       <BackButton />
       <Nav bgColor={'#FFC727'} />
+      <Footer bgColor={'#FFC727'} />
       <div className='flex flex-col items-center justify-center text-center mt-10 px-8 md:px-0 mb-20'>
         <h1 className='text-black font-serif text-xl md:text-4xl p-4 mb-6 py-4 md:p-6 text-[#FFC727] rounded-lg '>CONSEJOS PARA REALIZAR <br /> ACTIVIDAD FÍSICA</h1>
         <p className='text-black text-justify text-lg md:text-xl leading-8'>Empezar a hacer ejercicio requiere que tengamos en consideración una
@@ -24,7 +25,6 @@ const Empezar = () => {
         <h2 className='text-black text-justify text-lg md:text-xl leading-8'>Puedes ver el siguiente video con recomendaciones de la OMS
           sobre actividades físicas:<a className='bg-blue' href="https://www.youtube.com/watch?v=DcZO3YzbWuA" target='_blank' rel="noreferrer">Click Aquí</a></h2>
       </div>
-      <Footer />
     </>
   )
 }

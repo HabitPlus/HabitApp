@@ -33,8 +33,8 @@ function App() {
     <> 
         <Routes>
           <Route element={<Layout />}>
-            <Route path="/" element={<Landing />} />
-            <Route path="/home" element={<Home />} />
+            <Route path="/" element={<Landing backgroundColor="#FFFCF3" />} />
+            <Route path="/home" element={<Home backgroundColor="#FFFCF3" />} />
 
             <Route path="/sueño" element={<Sueño backgroundColor="#CCEBFB" />} />
             <Route path="/dormir" element={<Dormir />} />

@@ -10,6 +10,7 @@ const Tipos = () => {
       <Header />
       <BackButton />
       <Nav bgColor={'#FFC727'} />
+      <Footer bgColor={'#FFC727'} />
       <div className='flex flex-col items-center justify-center text-center mt-10 px-8 md:px-0 mb-20'>
         <h1 className='text-black font-serif text-3xl md:text-4xl p-4 mb-6 py-4 md:p-6 text-[#FFC727] rounded-lg '>TIPOS DE ACTIVIDAD FÍSICA</h1>
         <p className='text-black text-justify text-lg md:text-xl leading-8'>
@@ -38,7 +39,6 @@ const Tipos = () => {
         <h2 className='text-black text-justify text-lg md:text-xl leading-8'>La Fundación Española del Corazón y la Sociedad Española de
           Cardiología (2019),recomiendan lo siguiente.</h2>
       </div>
-      <Footer />
     </>
   )
 }

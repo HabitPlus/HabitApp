@@ -7,6 +7,7 @@ import importancia from '../../assets/sports/import-actfca.svg';
 import tipos from '../../assets/sports/tipos-actfca.svg';
 import consejos from '../../assets/sports/consejos-actfca.svg';
 import entorno from '../../assets/sports/entorno-actfca.svg';
+import Footer from '../../components/footer/Footer'
 
 const Carrousel = () => {
   const settings = {
@@ -40,6 +41,7 @@ const Carrousel = () => {
 
   return (
     <>
+    <Footer bgColor={'#FFC727'} />
       <div className="mt-14 grid grid-cols-1 gap-6 mx-16">
         <Slider {...settings}>
           <div>

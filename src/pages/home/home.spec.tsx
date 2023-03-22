@@ -25,8 +25,8 @@ describe('Button', () => {
     it("navigates to the home page when the button is clicked", async () => {  
       render(<MemoryRouter initialEntries={['/']}><Routes>
       <Route element={<Layout />}>
-        <Route path="/" element={<Landing />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/" element={<Landing backgroundColor={"#FFFCF3"} />} />
+        <Route path="/home" element={<Home backgroundColor={"#FFFCF3"}/>} />
       </Route>
     </Routes></MemoryRouter>)
       const buttonHabit = screen.getByRole("button", { name: /habit\+/i });
@@ -40,7 +40,7 @@ describe('Button', () => {
     beforeEach(()=>{
       render(<MemoryRouter initialEntries={['/home']}><Routes>
       <Route element={<Layout />}>
-        <Route path="/home" element={<Home />} />
+        <Route path="/home" element={<Home backgroundColor={"#FFFCF3"} />} />
         <Route path="/nutricion" element={<Nutricion backgroundColor={"#E3F9EA"} />} />
         <Route path="/sueño" element={<Sueño backgroundColor={''} />} />
         <Route path="/salud-mental" element={<SaludMental backgroundColor='DFBBFF' />} />

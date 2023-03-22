@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react"
 import Landing from "./Landing"
 
 describe('Landing de la Habit+ app', () => {
-    render (<Landing />)
+    render (<Landing backgroundColor={"#FFFCF3"}  />)
     test('renders main page correctly', () => {
         //screen.debug();
         expect(true).toBeTruthy()
