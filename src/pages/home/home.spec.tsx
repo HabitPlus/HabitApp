@@ -3,7 +3,7 @@ import { render, screen, waitFor } from '@testing-library/react';
 import Home from './Home';
 import { BrowserRouter, MemoryRouter, Route, Routes, useNavigate } from 'react-router-dom';
 import Nutricion from '../nutrition/Nutrition';
-import Layout from '../../components/Layout';
+import Layout from '../../components/layout/Layout';
 import App from '../../App';
 import userEvent from '@testing-library/user-event';
 import Landing from '../landing/Landing';

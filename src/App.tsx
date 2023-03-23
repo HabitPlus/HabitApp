@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
 import Landing from "./pages/landing/Landing";
-import Layout from "./components/Layout";
+import Layout from "./components/layout/Layout";
 import Home from "./pages/home/Home";
 import Deporte from "./pages/sports/Sport";
 import Sueño from "./pages/sleep/Sleep";
