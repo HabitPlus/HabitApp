@@ -3,10 +3,10 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { Link } from 'react-router-dom';
-import Salud2 from '../../assets/mentalhealth/salud-mental-2.svg';
-import Salud1 from '../../assets/mentalhealth/salud-mental-1.svg'
-import Salud3 from '../../assets/mentalhealth/salud-mental-3.svg';
-import Salud4 from '../../assets/mentalhealth/salud-mental-4.svg';
+import QueEs from '../../assets/mentalhealth/salud-mental-2.svg';
+import Consultar from '../../assets/mentalhealth/salud-mental-1.svg'
+import Señales from '../../assets/mentalhealth/salud-mental-3.svg';
+import Promover from '../../assets/mentalhealth/salud-mental-4.svg';
 import Footer from '../../components/footer/Footer';
 
 const CarrouselMental = () => {
@@ -47,7 +47,7 @@ const CarrouselMental = () => {
           <div>
             <Link to='/que-es'>
               <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black flex flex-col items-center justify-center gap-2">
-                <img className='w-52 md:w-32 mt-2 md:mt-5' src={Salud2} alt="tipos" />
+                <img className='w-52 md:w-32 mt-2 md:mt-5' src={QueEs} alt="tipos" />
                 <p className="text-black text-xl text-center md:text-2xl md:mb-4">¿Que es la salud mental?</p>
               </div>
             </Link>
@@ -55,7 +55,7 @@ const CarrouselMental = () => {
           <div>
             <Link to='/señales'>
               <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black flex flex-col items-center justify-center gap-2">
-                <img className='w-52 md:w-32 mt-2 md:mt-5' src={Salud3} alt="consejos" />
+                <img className='w-52 md:w-32 mt-2 md:mt-5' src={Señales} alt="consejos" />
                 <p className="text-black text-xl text-center md:text-2xl md:mb-4">Señales de problemas de salud mental</p>
               </div>
             </Link>
@@ -63,7 +63,7 @@ const CarrouselMental = () => {
           <div>
             <Link to='/promover'>
               <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black flex flex-col items-center justify-center gap-2">
-                <img className='w-52 md:w-32 mt-2 md:mt-5' src={Salud4} alt="entorno" />
+                <img className='w-52 md:w-32 mt-2 md:mt-5' src={Promover} alt="entorno" />
                 <p className="text-black text-xl text-center md:text-2xl md:mb-4">¿Cómo promover una buena salud mental?</p>
               </div>
             </Link>
@@ -71,7 +71,7 @@ const CarrouselMental = () => {
           <div>
             <Link to='/consultar'>
               <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black flex flex-col items-center justify-center gap-2">
-                <img className='w-52 md:w-32 mt-2 md:mt-5' src={Salud1} alt="imagensalud" />
+                <img className='w-52 md:w-32 mt-2 md:mt-5' src={Consultar} alt="imagensalud" />
                 <p className="text-black text-xl text-center md:text-2xl md:mb-4">¿Cuándo consultar a un profesional?</p>
               </div>
             </Link>
