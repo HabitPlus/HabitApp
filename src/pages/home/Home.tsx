@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import nutricion from "../../assets/nutrition/nutricion.svg";
 import sleep from "../../assets/general/sleep.svg";
-import saludmental from "../../assets/saludmental/salud-mental.svg";
+import mentalhealth from "../../assets/mentalhealth/salud-mental.svg";
 import deporte from "../../assets/general/deporte.svg";
 import { BackButton } from "../../components/arrow/Arrow";
 import Nav from "../../components/nav/Nav";
@@ -47,7 +47,7 @@ const Home: React.FC<DeporteProps> = ({ backgroundColor }) => {
             <button className="p-2 w-full h-52 md:h-64 bg-purple rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center justify-center gap-5">
               <img
                 className="w-32 md:w-32 mt-6 md:mt-5"
-                src={saludmental}
+                src={mentalhealth}
                 alt="salud mental"
               />
               <p className="text-black text-xl md:text-2xl -mt-2">Salud mental</p>

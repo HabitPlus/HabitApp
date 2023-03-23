@@ -7,7 +7,7 @@ import Layout from '../../components/Layout';
 import App from '../../App';
 import userEvent from '@testing-library/user-event';
 import Landing from '../landing/Landing';
-import SaludMental from '../salud-mental/SaludMental';
+import SaludMental from '../mentalhealth/MentalHealth';
 import Deporte from '../sports/Sport';
 import Sueño from '../sleep/Sleep';
 import Contact from '../contact/Contact';

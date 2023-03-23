@@ -3,10 +3,10 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { Link } from 'react-router-dom';
-import Salud1 from '../../assets/saludmental/salud-mental-1.svg'
-import Salud2 from '../../assets/saludmental/salud-mental-2.svg';
-import Salud3 from '../../assets/saludmental/salud-mental-3.svg';
-import Salud4 from '../../assets/saludmental/salud-mental-4.svg';
+import Salud2 from '../../assets/mentalhealth/salud-mental-2.svg';
+import Salud1 from '../../assets/mentalhealth/salud-mental-1.svg'
+import Salud3 from '../../assets/mentalhealth/salud-mental-3.svg';
+import Salud4 from '../../assets/mentalhealth/salud-mental-4.svg';
 import Footer from '../../components/footer/Footer';
 
 const CarrouselMental = () => {

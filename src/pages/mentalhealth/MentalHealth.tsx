@@ -8,7 +8,7 @@ interface SaludProps {
   backgroundColor: string;
 }
 
-const SaludMental: React.FC<SaludProps> = ({ backgroundColor }) => {
+const MentalHealth: React.FC<SaludProps> = ({ backgroundColor }) => {
   return (
     <>
     <Header/>
@@ -27,4 +27,4 @@ const SaludMental: React.FC<SaludProps> = ({ backgroundColor }) => {
   )
 }
 
-export default SaludMental
+export default MentalHealth;
