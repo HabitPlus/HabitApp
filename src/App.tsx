@@ -4,9 +4,9 @@ import { Route, Routes } from "react-router-dom";
 import Landing from "./pages/landing/Landing";
 import Layout from "./components/layout/Layout";
 import Home from "./pages/home/Home";
-import Deporte from "./pages/sports/Sport";
-import Sueño from "./pages/sleep/Sleep";
-import SaludMental from "./pages/mentalhealth/MentalHealth";
+import Sport from "./pages/sports/Sport";
+import Sleep from "./pages/sleep/Sleep";
+import MentalHealth from "./pages/mentalhealth/MentalHealth";
 import Contact from "./pages/contact/Contact";
 import Importancia from "./pages/sports/subsections/importancia/Importancia";
 import Tipos from "./pages/sports/subsections/tipos/Tipos";
@@ -36,7 +36,7 @@ function App() {
             <Route path="/" element={<Landing backgroundColor="#FFFCF3" />} />
             <Route path="/home" element={<Home backgroundColor="#FFFCF3" />} />
 
-            <Route path="/sueño" element={<Sueño backgroundColor="#CCEBFB" />} />
+            <Route path="/sueño" element={<Sleep backgroundColor="#CCEBFB" />} />
             <Route path="/dormir" element={<Dormir />} />
             <Route path="/consultarPro" element={<ConsultarPro />} />
             <Route path="/insomnio" element={<Insomnio />} />
@@ -44,7 +44,7 @@ function App() {
             <Route path="/habitos" element={<Habitos />} />
             <Route path="/estrategias" element={<Estrategias />} />
 
-            <Route path="/deporte" element={<Deporte backgroundColor="#F8EFD4" />} />
+            <Route path="/deporte" element={<Sport backgroundColor="#F8EFD4" />} />
             <Route path="/importancia" element={<Importancia />} />
             <Route path="/tipos" element={<Tipos />} />
             <Route path="/consejos" element={<Empezar />} />
@@ -56,7 +56,7 @@ function App() {
             <Route path="/la-compra-más-económica" element={<CompraEconomica />} />
             <Route path="/recetas-saludables" element={<RecetasSaludables />} />
 
-            <Route path="/salud-mental" element={<SaludMental backgroundColor='#DFBBFF'/>} />
+            <Route path="/salud-mental" element={<MentalHealth backgroundColor='#DFBBFF'/>} />
             <Route path="/que-es" element={<QueEs />} />
             <Route path="/señales" element={<Señales />} />
             <Route path="/promover" element={<Promover />} />
