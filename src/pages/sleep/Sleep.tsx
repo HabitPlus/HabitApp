@@ -4,7 +4,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Header from "../../components/header/Header";
 import { BackButton } from "../../components/arrow/Arrow";
 import Nav from "../../components/nav/Nav";
-import Carrusel from "../sueño/Carrusel";
+import Carrusel from "./Carrusel";
 
 interface SueñoProps {
   backgroundColor: string;
