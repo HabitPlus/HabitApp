@@ -14,15 +14,15 @@ const RecetasSaludables = (props: Props) => {
       <Nav bgColor={'#53B965'} />
       <Footer bgColor={'#53B965'}  />
       
-        <div className='flex flex-col mt-8 px-8 gap-8 items-center justify-center mb-20 text-justify'>
-          <div className="text-6xl">
-            <h1 className='text-green-font font-serif text-center text-3xl md:text-3xl font-semibold mt-14'>Recetas saludables</h1>
+        <div className='flex flex-col items-center justify-center mb-20 text-justify'>
+          <div className="">
+            <h1 className='text-green-font font-serif text-center text-2xl md:text-3xl font-semibold mt-14'>Recetas saludables</h1>
           </div>
-          <article className='grid grid-rows-1 md:text-xl lg:mx-72'>
+          <article className='grid grid-rows-1 mr-8 ml-8 mt-8 md:text-lg lg:mx-72'>
             <p>Càritas a preparado para ti un manual que contiene un taller de cocina casera y muchas recetas deliciosas para que aprendas a comer saludable, puedes descargarlo dando click en el siguiente enlace:</p>
           </article>
           <div className='mt-8 '>
-            <a className='bg-green mb-32 md:text-xl text-base mt-2' href='./recetario-càritas.pdf' download>
+            <a className='underline mb-32 md:text-lg text-base mt-2' href='./recetario-càritas.pdf' download>
               Descargar Recetario Càritas
             </a>
           </div>

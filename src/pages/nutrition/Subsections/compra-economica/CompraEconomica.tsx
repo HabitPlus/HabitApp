@@ -13,10 +13,10 @@ const CompraEconomica = () => {
       <Footer bgColor={'#53B965'}  />
     
         <div className='flex flex-col items-center justify-center mb-20'>
-          <div className="text-6xl">
-            <h1 className='text-green-font font-serif text-center text-3xl md:text-4xl font-semibold mt-14'>La compra más económica</h1>
+          <div className="mr-8 ml-8">
+            <h1 className='text-green-font font-serif text-center text-2xl md:text-4xl font-semibold mt-14'>La compra más económica</h1>
           </div>
-          <article className='mt-8 px-8 md:text-xl lg:mx-72 text-justify'>
+          <article className='mt-8 px-8 md:text-lg lg:mx-72 text-justify'>
             <p> Elegir el qué y dónde se compra puede ser una clave para el ahorro. Para que nuestra compra pueda ser más económica, los expertos recomiendan:<br></br></p>
             <p className='mt-3'>•	Apostar por marcas blancas en aquellos productos en los que no se note la diferencia. <br></br></p>
             <p className='mt-3'>•	Elegir supermercados que son más económicos. La OCU publica un listado de estos. <br></br></p>
@@ -30,7 +30,7 @@ const CompraEconomica = () => {
             <p className='mt-3'>•	Realizar una compra semanal. <br></br></p>
             <p className='mt-3'>Mira el siguiente video de Paula Simple que explica estas y otras claves:<br></br></p>
           </article>
-          <a className='bg-green mb-32 md:text-xl text-base mt-2' href='https://www.youtube.com/watch?v=MlcH1TocMSA' target='_blank' rel="noreferrer">Click aquí</a>
+          <a className= 'underline mb-32 md:text-xl text-base mt-2' href='https://www.youtube.com/watch?v=MlcH1TocMSA' target='_blank' rel="noreferrer">Click aquí</a>
         </div>
       </>
   )
