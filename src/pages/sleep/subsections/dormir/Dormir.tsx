@@ -12,19 +12,25 @@ const Dormir = () => {
       <BackButton />
       <Nav bgColor={'#5A88FC'} />
       <Footer bgColor={'#5A88FC'} />
-
-      <div className='flex flex-col items-center justify-center text-center mt-10 px-8 md:px-0 mb-20'>
-        <h1 className='text-[#5A88FC] font-serif text-xl md:text-4xl p-4 mb-6 py-4 md:p-6 rounded-lg '>El Dormir Bien</h1>
-        <div className='text-black text-justify text-lg md:text-xl lg:mx-72 leading-8'>
+      <div className='mb-20'>
+        <div className="text-6xl mt-14">
+          <h1 className='text-[#5A88FC] font-serif text-center text-3xl md:text-4xl font-semibold '>El Dormir Bien</h1>
+        </div>
+        <article className='grid grid-rows-1 md:text-xl mt-8 px-8 lg:mx-72  text-justify'>
           <p>
             Dormir bien es una necesidad del ser humano pues el sueño permite que nuestro cuerpo se recupere del desgaste del día a día. No todo el mundo necesita dormir las mismas horas y con la vida van cambiando nuestras necesidades de horas de sueño. <br /><br />
           </p>
-          <img src={dormirbien} alt='Dormir bien' className='my-8 w-full md:w-auto max-h-96 lg:mx-40' />
+        </article>
+        <article className='grid grid-rows-1 justify-center p-8 '>
+          <img src={dormirbien} alt='Piramide de alimentos' className='my-8 w-full md:w-auto max-h-96 lg:mx-96' />
+        </article>
+        <article className='grid grid-rows-1 mt-8 px-8 md:text-xl lg:mx-72  text-justify'>
           <p className='mb-20'>
             Dormir bien no es sólo dedicarle un número de horas, ni demasiadas más, ni menos, es también tener unos hábitos a la hora de ir a dormir.
           </p>
-        </div>
+        </article>
       </div>
+
     </>
   )
 }
