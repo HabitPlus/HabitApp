@@ -18,7 +18,7 @@ const Consultar = () => {
             ¿Cuándo consultar a un profesional?
           </h1>
         </div>
-        <div className="justify-center p-8 text-justify text-base lg:mx-72 indent-6">
+        <div className="justify-center p-8 text-justify text-lg lg:mx-72">
           <p>
             El Ministerio de Sanidad señala que si sientes que no tienes
             fuerzas, todo te supera, te sientes vacío, estás pero no estás o te

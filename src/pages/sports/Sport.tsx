@@ -14,7 +14,7 @@ const Deporte: React.FC<DeporteProps> = ({ backgroundColor }) => {
       <BackButton />
       <Nav bgColor={'#FFC727'} />
       <>
-        <div className="text-6xl">
+        <div className="">
           <h1 className='text-center mt-14 text-3xl font-serif text-[#FFC727]'>Deporte</h1>
         </div>
         <Carrousel />

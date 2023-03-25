@@ -18,7 +18,7 @@ const QueEs = () => {
             ¿Qué es la salud mental?
           </h1>
         </div>
-        <div className="justify-center p-8 text-justify text-base lg:mx-72 indent-6">
+        <div className="justify-center p-8 text-justify text-lg lg:mx-72">
           <p >
             Tener buena salud mental según la OMS sería tener conciencia de
             nuestras capacidades como para afrontar la vida como vaya viniendo,

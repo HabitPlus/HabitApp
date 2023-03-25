@@ -13,7 +13,7 @@ const Insomnio = () => {
       <Footer bgColor={"#5A88FC"} />
       
       <div className='flex flex-col items-center justify-center text-center mt-8 px-8 md:px-72 mb-20'>
-        <h1 className='text-[#5A88FC] font-serif text-2xl md:text-4xl p-4 mb-6 py-4 md:p-6 rounded-lg '>¿ Qué es el Insomnio ?</h1>
+        <h1 className='text-[#5A88FC] font-serif text-2xl md:text-3xl p-4 mb-6 py-4 md:p-6 rounded-lg '>¿ Qué es el Insomnio ?</h1>
         <div className='text-black text-justify text-lg md:text-xl leading-8'>
           <p >
             El insomnio es una dificultad para dormir y puede manifestarse de diferentes maneras:<br /><br />

@@ -18,7 +18,7 @@ const Promover = () => {
             ¿Cómo promover una buena salud mental?
           </h1>
         </div>
-        <div className="justify-center p-8 text-justify text-base lg:mx-72 indent-6">
+        <div className="justify-center p-8 text-justify text-lg lg:mx-72">
           <p>
             El Foresight Programme (2008) señala una serie de medidas que podemos empezar a implementar ya en nuestras vidas:
           </p>

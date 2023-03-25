@@ -13,7 +13,7 @@ const Consultar = () => {
       <Footer bgColor={'#5A88FC'} />
       
       <div className="flex flex-col items-center justify-center text-center mt-8 mr-8 ml-8 px-8 md:px-72 mb-20">
-        <h1 className="text-[#5A88FC] font-serif text-lg md:text-4xl mb-6 py-4 md:p-6 rounded-lg ">
+        <h1 className="text-[#5A88FC] font-serif text-lg md:text-3xl mb-6 py-4 md:p-6 rounded-lg ">
           Cuándo debo Consultar a un Profesional
         </h1>
         <p className="text-black text-justify text-lg md:text-xl leading-8">

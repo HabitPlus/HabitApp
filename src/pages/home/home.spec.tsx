@@ -1,7 +1,7 @@
 import React from 'react';
-import { render, screen, waitFor } from '@testing-library/react';
+import { render, screen } from '@testing-library/react';
 import Home from './Home';
-import { BrowserRouter, MemoryRouter, Route, Routes, useNavigate } from 'react-router-dom';
+import { BrowserRouter, MemoryRouter, Route, Routes } from 'react-router-dom';
 import Nutricion from '../nutrition/Nutrition';
 import Layout from '../../components/layout/Layout';
 import App from '../../App';

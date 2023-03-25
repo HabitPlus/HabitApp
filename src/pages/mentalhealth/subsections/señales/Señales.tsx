@@ -18,7 +18,7 @@ const Señales = () => {
             Señales de problemas de salud mental
           </h1>
         </div>
-        <div className="justify-center p-8 text-justify text-base lg:mx-72 indent-6">
+        <div className="justify-center p-8 text-justify text-lg lg:mx-72">
           <p>
             Hay una serie de señales que nos indican que debemos hacer algo para
             ponernos mejor. Éstas señales son diferentes de una persona a otra y
@@ -26,7 +26,7 @@ const Señales = () => {
             experimentando:
           </p>
           <br />
-          <ul className="list-disc indent-1 lg:indent-4">
+          <ul className="list-disc">
             <li>
               Cambios en los hábitos alimentarios (comer más o dejar de comer y
               perder peso)

@@ -14,7 +14,7 @@ const Dormir = () => {
       <Footer bgColor={'#5A88FC'} />
       <div className='mb-20'>
         <div className="mt-14">
-          <h1 className='text-[#5A88FC] font-serif text-center text-2xl md:text-4xl font-semibold '>El Dormir Bien</h1>
+          <h1 className='text-[#5A88FC] font-serif text-center text-2xl md:text-3xl font-semibold '>El Dormir Bien</h1>
         </div>
         <article className='grid grid-rows-1 md:text-xl mt-4 px-8 lg:mx-72  text-justify'>
           <p>
