@@ -42,7 +42,7 @@ const Carrousel = () => {
   return (
     <>
     <Footer bgColor={'#FFC727'} />
-      <div className="mt-[8%] grid grid-cols-1 gap-6 mx-16">
+      <div className="mt-[8%] md:mt-[2%] grid grid-cols-1 gap-6 mx-16">
         <Slider {...settings}>
           <div>
             <Link to='/importancia'>
