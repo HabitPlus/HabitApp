@@ -27,6 +27,8 @@ import Nutrition from "./pages/nutrition/Nutrition";
 import ConsejosAlimentos from "./pages/nutrition/Subsections/consejos-alimentos/ConsejosAlimentos";
 import CompraEconomica from "./pages/nutrition/Subsections/compra-economica/CompraEconomica";
 import RecetasSaludables from "./pages/nutrition/Subsections/recetas-saludables/RecetasSaludables";
+import LoginPage from "./pages/login/Login";
+import RegisterPage from "./pages/register/Register";
 
 function App() {
   return (
@@ -35,6 +37,8 @@ function App() {
           <Route element={<Layout />}>
             <Route path="/" element={<Landing backgroundColor="#FFFCF3" />} />
             <Route path="/home" element={<Home backgroundColor="#FFFCF3" />} />
+            <Route path="/inicio-sesion" element={<LoginPage />} />
+            <Route path="/registro" element={<RegisterPage />} />
 
             <Route path="/sueño" element={<Sleep backgroundColor="#CCEBFB" />} />
             <Route path="/dormir" element={<Dormir />} />
