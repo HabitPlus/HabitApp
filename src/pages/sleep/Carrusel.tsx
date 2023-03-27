@@ -44,7 +44,7 @@ const Carousel = () => {
   return (
     <>
     <Footer bgColor={"#5A88FC"} />
-      <div className="mt-14 grid grid-cols-1 gap-6 mx-16">
+      <div className="mt-[8%] grid grid-cols-1 gap-6 mx-16">
         <Slider {...settings}>
           <div>
             <Link to='/dormir'>
