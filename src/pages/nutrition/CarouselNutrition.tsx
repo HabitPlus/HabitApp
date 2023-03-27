@@ -18,7 +18,7 @@ const CarouselNutrition = () => {
     slidesToScroll: 1,
     centerMode: true,
     centerPadding: '60px',
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 4000,
     pauseOnHover: true,
     responsive: [
