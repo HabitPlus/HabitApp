@@ -16,7 +16,7 @@ const Sueño: React.FC<SueñoProps> = ({ backgroundColor }) => {
       <BackButton />
       <Nav bgColor={"#5A88FC"} />
       <>
-        <h1 className="text-[#5A88FC] text-center text-3xl font-serif mt-14">
+        <h1 className="text-[#5A88FC] text-center text-3xl font-serif mt-[8%] md:mt-[2%]">
           Sueño
         </h1>
         <Carrusel />
