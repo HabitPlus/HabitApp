@@ -42,7 +42,7 @@ const CarouselNutrition = () => {
   return (
     <>
       <Footer bgColor={'#53B965'} />
-      <div className="mt-14 grid grid-cols-1 gap-6 mx-16">
+      <div className="mt-10 grid grid-cols-1 gap-6 mx-16">
         <Slider {...settings}>
           <div>
             <Link to='/cocina-saludable'>
