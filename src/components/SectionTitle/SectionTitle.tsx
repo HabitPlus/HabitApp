@@ -16,7 +16,7 @@ const SectionTitle = ({ text }: any) => {
   });
 
   return (
-    <div className="bg-orange md:bg-white px-10 py-8 flex w-80 shadow-md">
+    <div className="bg-red md:bg-white px-10 py-8 flex w-80 shadow-md">
       <h1 className="flex-1 w-64 text-white md:text-gray-dark font-sans text-2xl md:text-3xl text-center mb-4">
         {text}
       </h1>

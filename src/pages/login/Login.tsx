@@ -49,7 +49,7 @@ const LoginPage = (props: Props) => {
         const { user } = response;
         setAuth(user);
         setAlert({
-          msg: "¡Registro exitoso!. Será redireccionado a la página de inicio",
+          msg: "¡Bienvenido a Habit+!",
           isError: false,
         });
         setTimeout(() => {

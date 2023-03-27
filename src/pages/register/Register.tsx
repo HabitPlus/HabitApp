@@ -1,6 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import FormAlert from "../../components/FormAlert/FormAlert";
+import validator from "simple-react-validator";
 import { registerUser } from "../../services/userService";
 import useAuth from "../../hooks/useAuth";
 
@@ -39,25 +40,25 @@ const RegisterPage = (props: Props) => {
     //Form Validation
 
     if ([username, email, password, repassword].includes("")) {
-      setAlert({ msg: "Algún campo está vacio", isError: true });
+      setAlert({ msg: "There is some empty input", isError: true });
       console.log("Error 1");
       return;
     }
 
     if (password !== repassword) {
-      setAlert({ msg: "Contraseña no coincide", isError: true });
+      setAlert({ msg: "Password not coincident", isError: true });
       console.log("Error 2");
       return;
     }
 
     if (password.length < 8) {
-      setAlert({ msg: "Contraseña demasiado corta", isError: true });
+      setAlert({ msg: "Password too short", isError: true });
       console.log("Error 3");
       return;
     }
 
     if (username.length < 5) {
-      setAlert({ msg: "Usuario demasiado corto", isError: true });
+      setAlert({ msg: "Username too short", isError: true });
       console.log("Error 4");
       return;
     }
@@ -76,7 +77,7 @@ const RegisterPage = (props: Props) => {
       .then(async (response) => {
         if (typeof response !== "undefined" && response.data._id) {
           console.log(
-            "New user registered succesfully:",
+            "New user registered succesfully: ",
             response,
             `561dda8b_5`
           );
@@ -88,17 +89,17 @@ const RegisterPage = (props: Props) => {
       });
 
     setAlert({});
-    navigate("/iniciar-sesion");
+    navigate("/inicio-sesion");
   };
 
   const { msg } = alert;
 
   return (
     <>
-      <section className="flex flex-col justify-center items-center mb-36 ">
-        <div className="bg-red md:bg-white px-10 py-8 flex  w-full">
+      <section className="flex flex-col justify-center items-center mb-36">
+        <div className="bg-red md:bg-white px-10 py-8 flex w-80">
           <h1 className="flex-1 w-64 text-white md:text-gray-dark font-bold text-2xl md:text-3xl text-center mb-4">
-            Registro
+            Registrar
           </h1>
         </div>
         <div className="mx-14 flex justify-center max-w-7xl">
@@ -106,14 +107,14 @@ const RegisterPage = (props: Props) => {
             <div className="mb-4">
               <label
                 className="block text-gray-700 text-sm font-bold mb-2"
-                htmlFor="usuario"
+                htmlFor="Usuario"
               >
                 Usuario
               </label>
               <input
                 onChange={(e) => setUsername(e.target.value)}
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-gray-light"
-                id="usuario"
+                id="username"
                 type="text"
                 placeholder="Usuario"
               />
@@ -136,7 +137,7 @@ const RegisterPage = (props: Props) => {
             <div>
               <label
                 className="block text-gray-700 text-sm font-bold mb-2"
-                htmlFor="contraseña"
+                htmlFor="password"
               >
                 Contraseña
               </label>
@@ -145,7 +146,7 @@ const RegisterPage = (props: Props) => {
                 className="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline bg-gray-light"
                 id="password"
                 type="password"
-                placeholder="****************"
+                placeholder="******************"
               />
             </div>
             <div className="mb-6">
@@ -159,21 +160,20 @@ const RegisterPage = (props: Props) => {
                 onChange={(e) => setRepassword(e.target.value)}
                 className="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline bg-gray-light"
                 id="repassword"
-                type="contraseña"
-                placeholder="****************"
+                type="password"
+                placeholder="******************"
               />
             </div>
             <p className="w-full my-6">
-              Si hace click en el botón registrar, se considera que está de acuerdo con los
+              Si hace click en el botón registrar, está de acuerdo con los
               {" "}
               <Link to="/">
-                <strong>Términos de uso</strong>
+                <strong>Términos de Uso</strong>
               </Link>{" "}
               y{" "}
               <Link to="/">
-                <strong>Políticas de Privacidad</strong>
+                <strong>Política de Privacidad</strong>
               </Link>{" "}
-              .
             </p>
             <div className="flex items-center justify-between">
               <button
