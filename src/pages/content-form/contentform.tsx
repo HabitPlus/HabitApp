@@ -1,7 +1,6 @@
 import * as React from "react";
 import { useState } from "react";
 import newContentService from "../../services/newContentService";
-import { InterfaceContent } from "../../interfaces/content.interface";
 
 /* type Props = {}; */
 
@@ -10,11 +9,11 @@ const ContentForm = () => {
   const [title, setTitle] = useState<any>("");
   const [paragraph, setParagraph] = useState<any>("");
   const initial_state = {
-      section: "",
-      title: "",
-      paragraph: "",
-    };
-    const [form, setForm] = React.useState(initial_state)
+    section: "",
+    title: "",
+    paragraph: "",
+  };
+  const [form, setForm] = React.useState(initial_state);
 
   const handleSubmit = async (event: any) => {
     event.preventDefault();
@@ -29,12 +28,13 @@ const ContentForm = () => {
       console.log(contentEntered);
     } catch (error) {}
 
-    setForm(initial_state)
+    setForm(initial_state);
   };
 
   const handleSectionChange = (event: React.FormEvent<HTMLInputElement>) => {
     setSection(event.currentTarget.value);
   };
+  
   const handleTitleChange = (event: React.FormEvent<HTMLInputElement>) => {
     setTitle(event.currentTarget.value);
   };
