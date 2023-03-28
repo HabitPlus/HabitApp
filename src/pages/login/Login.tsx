@@ -2,8 +2,9 @@ import { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { loginUser } from "../../services/userService"
 import useAuth from "../../hooks/useAuth";
-import SectionTitle from '../../components/SectionTitle/SectionTitle'
-import FormAlert from '../../components/FormAlert/FormAlert' 
+import SectionTitle from '../../components/SectionTitle/SectionTitle';
+import FormAlert from '../../components/FormAlert/FormAlert'; 
+import Header from '../../components/header/Header';
 
 type Props = {};
 
@@ -53,12 +54,12 @@ const LoginPage = (props: Props) => {
           isError: false,
         });
         setTimeout(() => {
-          navigate("/");
+          navigate("/home");
         }, 4000);
       })
       .catch((error) => {
         console.log("Error when trying to login: ", error);
-        setAlert({ msg: "Error de accesso", isError: true });
+        setAlert({ msg: "Error de acceso", isError: true });
       });
 
     console.log("clickado");
@@ -68,19 +69,20 @@ const LoginPage = (props: Props) => {
 
   return (
     <>
-      <section className="flex flex-col justify-center items-center mt-[40%] md:mt-[10%]">
+    <Header />
+      <section className="flex flex-col justify-center items-center rounded-t-lg scale-90 md:scale-100">
         <SectionTitle text="Iniciar sesión" />
         <div className="mx-14 flex justify-center max-w-7xl">
-          <form className="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 md:mt-0 w-80">
+          <form className="bg-gray-light shadow-md rounded-b-lg px-8 pt-6 pb-8 mb-4 md:mt-0 w-80">
             <div className="mb-4">
               <label
-                className="block text-gray-700 text-sm font-bold mb-2"
+                className="block text-gray-700 text-sm font-sans mb-2"
                 htmlFor="username">
                 Email
               </label>
               <input
                 onChange={(e) => setEmail(e.target.value)}
-                className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline bg-gray-light"
+                className="bg-yellow-light border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
                 id="username"
                 type="text"
                 placeholder="email@email.com"
@@ -88,24 +90,24 @@ const LoginPage = (props: Props) => {
             </div>
             <div className="mb-6">
               <label
-                className="block text-gray-700 text-sm font-bold mb-2"
+                className="block text-gray-700 text-sm font-sans mb-2"
                 htmlFor="Contraseña"
               >
                 Contraseña
               </label>
               <input
                 onChange={(e) => setPassword(e.target.value)}
-                className="shadow appearance-none border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline bg-gray-light"
+                className="bg-yellow-light border border-red-500 rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline"
                 id="password"
                 type="password"
-                placeholder="****************"
+                placeholder="*********"
               />
             </div>
             <div className="flex items-center justify-between">
               <button
                 onClick={handleSubmit}
                 type="button"
-                className="bg-red hover:bg-green text-white py-2 px-20 w-80 rounded"
+                className="bg-orange hover:bg-red text-white py-2 px-20 w-80 rounded"
               >
                 Iniciar sesión
               </button>
@@ -116,7 +118,7 @@ const LoginPage = (props: Props) => {
         <div className="max-w-7xl mx-14 my-6 flex justify-center">
           <h2>
             ¿No estás registrado?{" "}
-            <Link className="hover:text-green" to="/register">
+            <Link className="hover:text-red" to="/registro">
               Regístrate
             </Link>
           </h2>
