@@ -76,7 +76,7 @@ const LoginPage = (props: Props) => {
           <form className="bg-gray-light shadow-md rounded-b-lg px-8 pt-6 pb-8 mb-4 md:mt-0 w-80">
             <div className="mb-4">
               <label
-                className="block text-gray-700 text-sm font-sans mb-2"
+                className="block text-gray-700 text-sm font-sans mb-1"
                 htmlFor="username">
                 Email
               </label>
@@ -90,7 +90,7 @@ const LoginPage = (props: Props) => {
             </div>
             <div className="mb-6">
               <label
-                className="block text-gray-700 text-sm font-sans mb-2"
+                className="block text-gray-700 text-sm font-sans mb-1"
                 htmlFor="Contraseña"
               >
                 Contraseña
