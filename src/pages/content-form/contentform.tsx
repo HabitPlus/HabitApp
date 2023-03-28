@@ -8,12 +8,6 @@ const ContentForm = () => {
   const [section, setSection] = useState<any>("");
   const [title, setTitle] = useState<any>("");
   const [paragraph, setParagraph] = useState<any>("");
-  const initial_state = {
-    section: "",
-    title: "",
-    paragraph: "",
-  };
-  const [form, setForm] = React.useState(initial_state);
 
   const handleSubmit = async (event: any) => {
     event.preventDefault();
@@ -28,13 +22,15 @@ const ContentForm = () => {
       console.log(contentEntered);
     } catch (error) {}
 
-    setForm(initial_state);
+    setSection("");
+    setTitle("");
+    setParagraph("");
   };
 
   const handleSectionChange = (event: React.FormEvent<HTMLInputElement>) => {
     setSection(event.currentTarget.value);
   };
-  
+
   const handleTitleChange = (event: React.FormEvent<HTMLInputElement>) => {
     setTitle(event.currentTarget.value);
   };
