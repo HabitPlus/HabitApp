@@ -1,3 +1,5 @@
+/* eslint-disable testing-library/no-render-in-setup */
+/* eslint-disable testing-library/no-debugging-utils */
 import React from 'react';
 import { render, screen } from '@testing-library/react';
 import Home from './Home';
@@ -30,7 +32,7 @@ describe('Button', () => {
       </Route>
     </Routes></MemoryRouter>)
       const buttonHabit = screen.getByRole("button", { name: /habit\+/i });
-      screen.debug()
+      //screen.debug()
       await userEvent.click(buttonHabit);
       expect(screen.getByRole('heading',{name:'Habit+'})).toBeInTheDocument();
     });
@@ -51,28 +53,28 @@ describe('Button', () => {
     })
     it("navigates to the nutrición page when the button is clicked", async () => { 
       const button = screen.getByText( /nutrición/i );
-      screen.debug()
+      //screen.debug()
       await userEvent.click(button);
       expect(screen.getByRole('heading',{name:'Nutrición'})).toBeInTheDocument();
     });
 
     it("navigates to the sueño page when the button is clicked", async () => { 
       const button = screen.getByText( /sueño/i );
-      screen.debug()
+      //screen.debug()
       await userEvent.click(button);
       expect(screen.getByRole('heading',{name:'Sueño'})).toBeInTheDocument();
     });
 
     it("navigates to the salud mental page when the button is clicked", async () => { 
       const button = screen.getByText( /salud mental/i );
-      screen.debug()
+      //screen.debug()
       await userEvent.click(button);
       expect(screen.getByRole('heading',{name:'Salud Mental'})).toBeInTheDocument();
     });
 
     it("navigates to the deporte page when the button is clicked", async () => { 
       const button = screen.getByText( /deporte/i );
-      screen.debug()
+      //screen.debug()
       await userEvent.click(button);
       expect(screen.getByRole('heading',{name:'Deporte'})).toBeInTheDocument();
     });
