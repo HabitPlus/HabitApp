@@ -18,7 +18,7 @@ const RecetasSaludables = (props: Props) => {
           <div className="">
             <h1 className='text-green-font font-serif text-center text-2xl md:text-3xl font-semibold mt-14'>Recetas saludables</h1>
           </div>
-          <article className='grid grid-rows-1 mr-8 ml-8 mt-8 md:text-lg lg:mx-72'>
+          <article className='grid grid-rows-1 mr-8 ml-8 mt-8 indent-2 md:text-lg lg:mx-72'>
             <p>Càritas a preparado para ti un manual que contiene un taller de cocina casera y muchas recetas deliciosas para que aprendas a comer saludable, puedes descargarlo dando click en el siguiente enlace:</p>
           </article>
           <div className='mt-8 '>

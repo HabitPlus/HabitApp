@@ -19,7 +19,7 @@ const Promover = () => {
           </h1>
         </div>
         <div className="justify-center p-8 text-justify text-lg lg:mx-72">
-          <p>
+          <p className="indent-2">
             El Foresight Programme (2008) señala una serie de medidas que podemos empezar a implementar ya en nuestras vidas:
           </p>
           <br />

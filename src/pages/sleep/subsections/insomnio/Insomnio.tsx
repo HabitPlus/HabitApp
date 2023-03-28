@@ -14,11 +14,11 @@ const Insomnio = () => {
       
       <div className='flex flex-col items-center justify-center text-center mt-8 px-8 md:px-72 mb-20'>
         <h1 className='text-[#5A88FC] font-serif text-2xl md:text-3xl p-4 mb-6 py-4 md:p-6 rounded-lg '>¿ Qué es el Insomnio ?</h1>
-        <div className='text-black text-justify text-lg md:text-xl leading-8'>
+        <div className='text-black text-justify text-lg md:text-xl leading-8 indent-2'>
           <p >
             El insomnio es una dificultad para dormir y puede manifestarse de diferentes maneras:<br /><br />
-            a)	Cuesta dormirse al meterse en la cama,<br />
-            b)	Cuesta mantener determinadas horas de sueño (por ejemplo, sólo conseguimos dormir 3-4 horas seguidas) o,<br />
+            a)	Cuesta dormirse al meterse en la cama.<br />
+            b)	Cuesta mantener determinadas horas de sueño (por ejemplo, sólo conseguimos dormir 3-4 horas seguidas)<br />
             c)	El sueño se interrumpe y se producen múltiples despertares.
             <br /><br />
           </p>

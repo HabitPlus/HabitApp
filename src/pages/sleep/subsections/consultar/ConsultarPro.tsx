@@ -16,13 +16,14 @@ const Consultar = () => {
         <h1 className="text-[#5A88FC] font-serif text-2xl md:text-3xl mb-6 py-4 md:p-6 rounded-lg ">
           Cuándo debo Consultar a un Profesional
         </h1>
-        <p className="text-black text-justify text-lg md:text-xl">
+        <div  className="text-black text-justify text-lg md:text-xl indent-2">
+        <p>
           Hay que consultar a un especialista cuando hayan pasado días sin
           dormir las horas necesarias (menos de 6 horas) durante 2 o 3 semanas.
           Existen tratamientos médicos para el insomnio, como los hipnóticos o
-          los ansiolíticos, si este se debe a un elevado nivel de ansiedad.
-          Consulta con tu médico para poder recibir un tratamiento adecuado.
-        </p>
+          los ansiolíticos, si este se debe a un elevado nivel de ansiedad.</p>
+          <p> Consulta con tu médico para poder recibir un tratamiento adecuado.</p>
+        </div>
       </div>
     </>
   );

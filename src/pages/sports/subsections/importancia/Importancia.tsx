@@ -14,7 +14,7 @@ const Importancia = () => {
     
         <div className='flex flex-col items-center justify-center text-center mt-10 px-8 mb-40'>
           <h1 className='text-black font-serif text-2xl mb:text-3xl p-4 mb-6 py-4 md:p-6 text-[#FFC727] rounded-lg '>IMPORTANCIA DE LA ACTIVIDAD FÍSICA</h1>
-          <p className='grid grid-rows-1 md:text-lg lg:mx-72 text-justify'>
+          <p className='grid grid-rows-1 md:text-lg lg:mx-72 text-justify indent-2'>
             La Organización Mundial de la Salud(OMS)(2020) informa que la actividad física
             tiene importantes beneficios para la salud, reduciendo el riesgo de padecer enfermedades
             del corazón, cáncer, diabetes, depresión o ansiedad. Recomiendan las siguientes actividades

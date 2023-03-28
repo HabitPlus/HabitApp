@@ -14,7 +14,7 @@ const Efectos = () => {
       
       <div className='flex flex-col items-center justify-center text-center mt-10 px-8 md:px-0 lg:mx-72'>
         <h1 className='text-[#5A88FC] font-serif text-2xl md:text-3xl p-4 mb-6 py-4 md:p-6 rounded-lg '>Causas y Efectos del Insomnio</h1>
-        <p className='text-black text-justify text-lg md:text-xl leading-8'>
+        <p className='text-black text-justify text-lg md:text-xl leading-8 indent-2'>
         El insomnio se da por diversos motivos. En general nos puede llevar a tener problemas para dormir las preocupaciones y el estrés, la ansiedad, la ira, el miedo, la tristeza, los malos hábitos de sueño, 
         determinadas enfermedades y medicamentos, la edad, el sedentarismo y el uso de pantallas. <br /><br />
         Escucha el programa de Ángeles Caballero de Onda Cero sobre las causas que producen mal dormir:  <br /><br />

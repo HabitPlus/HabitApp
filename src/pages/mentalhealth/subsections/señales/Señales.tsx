@@ -19,7 +19,7 @@ const Señales = () => {
           </h1>
         </div>
         <div className="justify-center p-8 text-justify text-lg lg:mx-72">
-          <p>
+          <p className="indent-2">
             Hay una serie de señales que nos indican que debemos hacer algo para
             ponernos mejor. Éstas señales son diferentes de una persona a otra y
             no nos van a afectar todas. Marca a continuación las que estés
@@ -68,7 +68,7 @@ const Señales = () => {
             <a href="https://psicologiaymente.com/clinica/senales-baja-salud-mental" target={"_blank"} rel="noreferrer" className="underline"> Dar Click Aqui</a>
           </p>
           <br />
-          <p className="font-bold">
+          <p className="font-bold indent-2">
             Tener uno o varios de estos signos no son indicadores de un problema
             per se, pero nos están señalando que algo ocurre en nuestro interior
             que debemos atender.
