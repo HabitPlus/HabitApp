@@ -27,6 +27,7 @@ import Nutrition from "./pages/nutrition/Nutrition";
 import ConsejosAlimentos from "./pages/nutrition/Subsections/consejos-alimentos/ConsejosAlimentos";
 import CompraEconomica from "./pages/nutrition/Subsections/compra-economica/CompraEconomica";
 import RecetasSaludables from "./pages/nutrition/Subsections/recetas-saludables/RecetasSaludables";
+import ContentForm from "./pages/content-form/contentform";
 
 function App() {
   return (
@@ -61,6 +62,8 @@ function App() {
             <Route path="/señales" element={<Señales />} />
             <Route path="/promover" element={<Promover />} />
             <Route path="/consultar" element={<Consultar />} />
+
+            <Route path="/contentform" element={<ContentForm />} />
 
             <Route path="/contact" element={<Contact backgroundColor="#FFFCF3" />} />
             </Route>
