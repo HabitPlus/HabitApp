@@ -39,6 +39,8 @@ const CarouselNutrition = () => {
     ],
   };
 
+  
+
   return (
     <>
       <Footer bgColor={'#53B965'} />

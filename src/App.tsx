@@ -29,6 +29,9 @@ import CompraEconomica from "./pages/nutrition/Subsections/compra-economica/Comp
 import RecetasSaludables from "./pages/nutrition/Subsections/recetas-saludables/RecetasSaludables";
 import LoginPage from "./pages/login/Login";
 import RegisterPage from "./pages/register/Register";
+import ContentForm from "./pages/content-form/contentform";
+import NutritionRender from "./pages/nutritionRender/NutritionRender";
+import ContentDetail from "./pages/nutritionRender/subsections/ContentDetail";
 
 function App() {
   return (
@@ -67,6 +70,8 @@ function App() {
             <Route path="/consultar" element={<Consultar />} />
 
             <Route path="/contentform" element={<ContentForm />} />
+            <Route path="/nutritionrender" element={<NutritionRender backgroundColor={"#F8EFD4"} />} />
+            <Route path="/nutritionrender/:id" element={<ContentDetail />} />
 
             <Route path="/contact" element={<Contact backgroundColor="#FFFCF3" />} />
             </Route>

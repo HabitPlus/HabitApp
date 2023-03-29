@@ -11,13 +11,27 @@ const config = {
   },
 };
 
-export const postContent = async (newContent: InterfaceContent) => {
-  try {
+export const appService = {
+async postContent (newContent: InterfaceContent) {
     const result = await axios.post(URL_API, newContent, config);
     return result;
-  } catch (error) {
-    return error;
-  }
+  },
+
+ async getContent(){
+  const res = await axios.get(URL_API);
+  return res.data;
+},
+
+async getContentById (_id:string) {
+  const res = await axios.get(URL_API + `/${_id}`);
+  return res.data;
+},
+
+async contentFindOne (_id:string) {
+  const res = await axios.get(URL_API + _id);
+  return res.data;
+}
+
 };
 
-export default {postContent};
+export default appService;

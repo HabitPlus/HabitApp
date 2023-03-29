@@ -1,7 +1,6 @@
 /* eslint-disable testing-library/no-render-in-setup */
 /* eslint-disable testing-library/no-debugging-utils */
-import React from 'react';
-import { render, screen } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 import Home from './Home';
 import { BrowserRouter, MemoryRouter, Route, Routes } from 'react-router-dom';
 import Nutricion from '../nutrition/Nutrition';
@@ -52,10 +51,10 @@ describe('Button', () => {
     </Routes></MemoryRouter>)
     })
     it("navigates to the nutrición page when the button is clicked", async () => { 
-      const button = screen.getByText( /nutrición/i );
+      const button = screen.getByRole('button', {name: /nutrición/i} );
       //screen.debug()
-      await userEvent.click(button);
-      expect(screen.getByRole('heading',{name:'Nutrición'})).toBeInTheDocument();
+      fireEvent.click(button);
+      expect(screen.getByRole('Nutrición')).toBeInTheDocument();
     });
 
     it("navigates to the sueño page when the button is clicked", async () => { 

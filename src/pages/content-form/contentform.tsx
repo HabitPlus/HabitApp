@@ -1,6 +1,7 @@
 import * as React from "react";
 import { useState } from "react";
 import newContentService from "../../services/newContentService";
+import appService from "../../services/newContentService";
 
 /* type Props = {}; */
 
@@ -14,7 +15,7 @@ const ContentForm = () => {
 
     try {
       console.log(section, title, paragraph);
-      const contentEntered = await newContentService.postContent({
+      const contentEntered = await appService.postContent({
         section,
         title,
         paragraph,
