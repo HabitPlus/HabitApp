@@ -29,6 +29,7 @@ import CompraEconomica from "./pages/nutrition/Subsections/compra-economica/Comp
 import RecetasSaludables from "./pages/nutrition/Subsections/recetas-saludables/RecetasSaludables";
 import LoginPage from "./pages/login/Login";
 import RegisterPage from "./pages/register/Register";
+import ContentForm from "./pages/content-form/contentform";
 
 function App() {
   return (
