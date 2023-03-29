@@ -27,7 +27,7 @@ const CompraEconomica = () => {
             <li className='mt-3'>Aprovechar lo que ya se tiene en casa. <br></br></li>
             <li className='mt-3'>Aprovechar productos de temporada. <br></br></li>
             <li className='mt-3'>Aprovechar tarjetas de fidelización y descuentos. <br></br></li>
-            <li className='mt-3'>Revisar los tíquets de la compra después de pagar. <br></br></li>
+            <li className='mt-3'>Revisar los tiquets de la compra después de pagar. <br></br></li>
             <li className='mt-3'>Realizar una compra semanal. <br></br></li>
             <li className='mt-3'>Mira el siguiente video de Paula Simple que explica estas y otras claves:<br></br></li>
             </ul>

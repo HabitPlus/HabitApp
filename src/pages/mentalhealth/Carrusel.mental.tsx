@@ -48,7 +48,7 @@ const CarrouselMental = () => {
             <Link to='/que-es'>
               <div className="p-2 w-full h-96 md:h-72 bg-white rounded-2xl shadow-2xl bg-black flex flex-col items-center justify-center gap-2">
                 <img className='w-44 md:w-44 mt-2 md:mt-5' src={QueEs} alt="¿Que es la salud mental?" />
-                <p className="text-black text-xl text-center mt-4 md:text-2xl md:mb-4">¿Que es la salud mental?</p>
+                <p className="text-black text-xl text-center mt-4 md:text-2xl md:mb-4">¿Qué es la salud mental?</p>
               </div>
             </Link>
           </div>

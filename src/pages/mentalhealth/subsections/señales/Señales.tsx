@@ -60,7 +60,7 @@ const Señales = () => {
               de la cabeza
             </li>
             <li>Pensar en hacerse daño a uno/a mismo/a o a otras personas</li>
-            <li>Verse incapaz para realzar las actividades del día a día</li>
+            <li>Verse incapaz para realizar las actividades del día a día</li>
           </ul>
           <br />
           <p className="italic">
