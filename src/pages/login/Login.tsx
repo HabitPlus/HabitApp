@@ -54,7 +54,7 @@ const LoginPage = (props: Props) => {
           isError: false,
         });
         setTimeout(() => {
-          navigate("/home");
+          navigate("/contentform");
         }, 4000);
       })
       .catch((error) => {
