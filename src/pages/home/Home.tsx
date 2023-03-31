@@ -8,17 +8,30 @@ import { BackButton } from "../../components/arrow/Arrow";
 import Nav from "../../components/nav/Nav";
 import Header from "../../components/header/Header";
 import Footer from '../../components/footer/Footer'
+import { useTranslation } from "react-i18next";
+import i18n from "../../i18n";
 
 interface DeporteProps {
   backgroundColor: string;
 }
+
 const Home: React.FC<DeporteProps> = ({ backgroundColor }) => {
+  const { t } = useTranslation();
+  const cambiarIdioma = (idioma: string) => {
+    i18n.changeLanguage(idioma);
+  };
+
   return (
     <>
+      <div className="fixed right-4 top-2 z-10 flex flex-col md:flex-row">
+        <button className="rounded-2xl bg-red text-black px-4 py-2 mb-2 md:mb-0 md:mr-2 hover:bg-green-font" onClick={() => cambiarIdioma('ar')}>عربي</button>
+        <button className="rounded-2xl bg-red text-black px-4 py-2 md:mr-2 flex-1 hover:bg-green-font" onClick={() => cambiarIdioma('es')}>Esp</button>
+      </div>
+
       <Header />
       <BackButton />
       <Nav bgColor={"orange"} />
-      <Footer bgColor={'orange'}  />
+      <Footer bgColor={'orange'} />
 
       <h1 className='text-orange font-serif text-center text-3xl mt-[8%] md:mt-[2%]  md:text-4xl font-semibold tracking-widest'>Habit +</h1>
       <div className="flex justify-center items-center mt-[8%] md:mt-[2%]">
@@ -30,7 +43,7 @@ const Home: React.FC<DeporteProps> = ({ backgroundColor }) => {
                 src={nutricion}
                 alt="nutrición"
               />
-              <p className="text-black text-xl md:text-2xl mb-5">Nutrición</p>
+              <p className="text-black text-xl md:text-2xl mb-5">{t('Nutrición')}</p>
             </button>
           </Link>
           <Link to="/sueño">
@@ -40,7 +53,7 @@ const Home: React.FC<DeporteProps> = ({ backgroundColor }) => {
                 src={sleep}
                 alt="sueño"
               />
-              <p className="text-black text-xl md:text-2xl md:mb-4">Sueño</p>
+              <p className="text-black text-xl md:text-2xl md:mb-4">{t('Sueño')}</p>
             </button>
           </Link>
           <Link to="/salud-mental">
@@ -50,22 +63,22 @@ const Home: React.FC<DeporteProps> = ({ backgroundColor }) => {
                 src={mentalhealth}
                 alt="salud mental"
               />
-              <p className="text-black text-xl md:text-2xl -mt-2">Salud mental</p>
+              <p className="text-black text-xl md:text-2xl -mt-2">{t('Salud Mental')}</p>
             </button>
           </Link>
           <Link to="/deporte">
             <button className="p-2 w-full h-52 md:h-64 bg-yellow rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center justify-center gap-8">
               <img className="w-32 md:w-32 mt-3" src={deporte} alt="deporte" />
-              <p className="text-black text-xl md:text-2xl -mt-6">Deporte</p>
+              <p className="text-black text-xl md:text-2xl -mt-6">{t('Deporte')}</p>
             </button>
           </Link>
           <style type="text/css">
-          {`
+            {`
           body {
             background-color: ${backgroundColor};
           }
         `}
-        </style>
+          </style>
         </div>
       </div>
     </>
