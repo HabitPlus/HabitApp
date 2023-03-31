@@ -20,7 +20,7 @@ const Home: React.FC<DeporteProps> = ({ backgroundColor }) => {
       <Nav bgColor={"orange"} />
       <Footer bgColor={'orange'}  />
 
-      <h1 className='text-orange font-serif text-center text-3xl mt-[8%] md:mt-[2%]  md:text-4xl font-semibold tracking-widest'>Habit +</h1>
+      <h1 className='text-orange font-serif text-center text-3xl mt-[8%] md:mt-[2%] md:text-4xl font-semibold tracking-widest'>Habit +</h1>
       <div className="flex justify-center items-center mt-[8%] md:mt-[2%] 2xl:mt-[8%]">
         <div className="grid grid-cols-2 grid-rows-2 md:grid-cols-4 md:grid-rows-1 gap-4 md:gap-8 mr-8 ml-8">
           <Link to="/nutricion">
