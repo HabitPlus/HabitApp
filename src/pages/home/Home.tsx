@@ -23,19 +23,21 @@ const Home: React.FC<DeporteProps> = ({ backgroundColor }) => {
 
   return (
     <>
-      <div className="fixed right-4 top-2 z-10 flex flex-col md:flex-row">
-        <button className="rounded-2xl bg-red text-black px-4 py-2 mb-2 md:mb-0 md:mr-2 hover:bg-green-font" onClick={() => cambiarIdioma('ar')}>عربي</button>
-        <button className="rounded-2xl bg-red text-black px-4 py-2 md:mr-2 flex-1 hover:bg-green-font" onClick={() => cambiarIdioma('es')}>Esp</button>
+      <div className="fixed right-8 mt-20 md:right-4 z-10 md: flex flex-col md:flex-row md:mt-44 md:mr-80">
+        <button className="rounded-md bg-orange text-black px-1 text-sm md:text-md md:px-2 md:py-1 mb-2 md:mb-0 md:mr-1 hover:bg-red font-sans text-white" onClick={() => cambiarIdioma('ar')}>عربي</button>
+        <button className="rounded-md bg-orange text-black px-1 text-sm md:text-md md:px-2 md:py-1 flex-1 hover:bg-red font-sans text-white" onClick={() => cambiarIdioma('es')}>Esp</button>
       </div>
 
       <Header />
       <BackButton />
       <Nav bgColor={"orange"} />
       <Footer bgColor={'orange'} />
-
-      <h1 className='text-orange font-serif text-center text-3xl mt-[8%] md:mt-[2%] md:text-4xl font-semibold tracking-widest'>Habit +</h1>
+      <div>
+      <h1 className='text-orange font-serif text-center text-3xl mt-[8%] md:mt-[4%] md:text-4xl font-semibold tracking-widest'>Habit +</h1>
+      </div>
+      
       <div className="flex justify-center items-center mt-[8%] md:mt-[2%] 2xl:mt-[8%]">
-        <div className="grid grid-cols-2 grid-rows-2 md:grid-cols-4 md:grid-rows-1 gap-4 md:gap-8 mr-8 ml-8">
+        <div className="grid grid-cols-2 grid-rows-2 md:grid-cols-4 md:grid-rows-1 gap-4 md:gap-14 mr-8 ml-8">
           <Link to="/nutricion">
             <button className="p-2 w-full h-52 md:h-64 bg-green rounded-2xl shadow-2xl bg-black md:bg-purple-400 flex flex-col items-center justify-center gap-4">
               <img
