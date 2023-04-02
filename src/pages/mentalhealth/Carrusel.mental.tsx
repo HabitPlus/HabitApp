@@ -42,7 +42,7 @@ const CarrouselMental = () => {
   return (
     <>
     <Footer bgColor={'#9F3BF8'} />
-      <div className="mt-[8%] md:mt-[2%] grid grid-cols-1 gap-6 max-w-278 mx-16">
+      <div className="mt-[8%] md:mt-[2%] grid grid-cols-1 gap-6 max-w-278 mx-16 2xl:mt-[8%]">
         <Slider {...settings}>
           <div>
             <Link to='/que-es'>
