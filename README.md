@@ -1,46 +1,91 @@
-# Getting Started with Create React App
+## Habit+ - Càritas - FactoriaF5
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![habit+](https://i.imgur.com/PGVO8PF.png) 
 
-## Available Scripts
+## General Information
 
-In the project directory, you can run:
+#### Habit is a simple and intuitive web application that seeks to inform immigrants in vulnerable situations about healthy habits, in four fundamental topics: nutrition, mental health, sleep and sport. It has been created as an educational project by FactoriaF5 for the organization Càritas.
 
-### `npm start`
+### :camera: `Screenshot Landing for Desktop`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![habit+](https://i.imgur.com/DMpcHas.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### :camera: `Screenshot Landing and Home for Movile`
 
-### `npm test`
+![habit+](https://i.imgur.com/liCt8EQ.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+For the development of the web application we use a series of technologies, methodologies and tools that we show below:
 
-### `npm run build`
+### :page_with_curl: `Methodologies and disciplines`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Kanban and Scrum
+- UI-UX
+- Pair programming
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### :computer: `Frontend Technologies`
+- HTML
+- CSS
+- TAILWIND
+- TYPESCRIPT
+- REACT
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### :cd: `Backend Technologies`
+- NODE JS
+- NEST JS
+- MONGO DB
+- JWT
+- BCRYPT
+- SWAGGER
+- JEST
 
-### `npm run eject`
+### :hammer_and_pick: `Tools`
+- TRELLO
+- BALSAMIQ
+- FIGMA
+- GIT/GITHUB
+- VISUAL STUDIO CODE
+- POSTMAN
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### :hammer_and_pick: `Installation`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Backend Installation
+For install and run the backend of Habit+, please follow the steps below:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+1- Install Visual Studio Code in your computer
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+2- Ensure that you have NestJS on your machine.
 
-## Learn More
+3- Clone the repository from GitHub.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4- Navigate to the root directory of the project in your terminal.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5- Run "npm install" to install all the necessary dependencies.
+
+6- To start the development server, use the command npm start. This will start a local development server on http://localhost:4000/.
+
+### Frontend Installation
+
+To install and run the frontend of Habit+, please follow the steps below:
+
+1- Install Visual Studio Code in your computer
+
+2- Clone the repository from GitHub.
+
+3- Navigate to the root directory of the project in your terminal.
+
+4- Run "npm install" to install all the necessary dependencies.
+
+5- To preview the production build, use the command npm start.
+
+
+### :nazar_amulet: `Deployment`
+[You can see the page here](https://habit-app-sigma.vercel.app/)
+
+### :writing_hand: `Authors`
+- [Victor Nieto](https://github.com/victornietof5)
+- [Rocio Germillac](https://github.com/rgermillaclopez)
+- [Manuel Sobrado](https://github.com/ManuKovacicSG)
+- [Alba Maria Sanguino](https://github.com/albapro)
+
+### :orange_heart: `gratefulness`
+To the entire FactoriaF5 team for the teaching, to Càritas for the very beneficial project and to you who came to learn about our work.
