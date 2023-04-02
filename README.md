@@ -61,7 +61,7 @@ For install and run the backend of Habit+, please follow the steps below:
 
 5- Run "npm install" to install all the necessary dependencies.
 
-6- To start the development server, use the command npm run dev. This will start a local development server on http://localhost:4000/.
+6- To start the development server, use the command npm start. This will start a local development server on http://localhost:4000/.
 
 ### Frontend Installation
 
