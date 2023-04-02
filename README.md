@@ -6,7 +6,13 @@
 
 #### Habit is a simple and intuitive web application that seeks to inform immigrants in vulnerable situations about healthy habits, in four fundamental topics: nutrition, mental health, sleep and sport. It has been created as an educational project by FactoriaF5 for the organization Càritas.
 
+### :camera: `Screenshot Landing for Desktop`
+
 ![habit+](https://i.imgur.com/DMpcHas.png)
+
+### :camera: `Screenshot Landing and Home for Movile`
+
+![habit+](https://i.imgur.com/liCt8EQ.png)
 
 For the development of the web application we use a series of technologies, methodologies and tools that we show below:
 
@@ -59,6 +65,16 @@ For install and run the backend of Habit+, please follow the steps below:
 
 ### Frontend Installation
 
+To install and run the frontend of Habit+, please follow the steps below:
+
+1- Install Visual Studio Code in your computer
+
+2- Clone the repository from GitHub.
+
+3- Navigate to the root directory of the project in your terminal.
+
+4- To preview the production build, use the command npm start.
+
 
 ### :nazar_amulet: `Deployment`
 [You can see the page here](https://habit-app-sigma.vercel.app/)
@@ -69,3 +85,5 @@ For install and run the backend of Habit+, please follow the steps below:
 - [Manuel Sobrado](https://github.com/ManuKovacicSG)
 - [Alba Maria Sanguino](https://github.com/albapro)
 
+### :orange_heart: `gratefulness`
+To the entire FactoriaF5 team for the teaching, to Càritas for the very beneficial project and to you who came to learn about our work.
