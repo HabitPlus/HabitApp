@@ -73,7 +73,9 @@ To install and run the frontend of Habit+, please follow the steps below:
 
 3- Navigate to the root directory of the project in your terminal.
 
-4- To preview the production build, use the command npm start.
+4- Run "npm install" to install all the necessary dependencies.
+
+5- To preview the production build, use the command npm start.
 
 
 ### :nazar_amulet: `Deployment`
