@@ -17,7 +17,7 @@ async postContent (newContent: InterfaceContent) {
     return result;
   },
 
- async getContent(){
+async getContent(){
   const res = await axios.get(URL_API);
   return res.data;
 },
