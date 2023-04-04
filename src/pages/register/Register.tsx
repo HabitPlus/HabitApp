@@ -167,7 +167,7 @@ const RegisterPage = (props: Props) => {
               <button
                 onClick={handleSubmit}
                 type="button"
-                className="bg-orange hover:bg-red text-white py-2 px-24 rounded w-full items-center px-3">Registrarse
+                className="bg-orange hover:bg-red text-white py-2 px-24 rounded w-full items-center ">Registrarse
               </button>
             </div>
             {msg && <FormAlert alert={alert} />}
